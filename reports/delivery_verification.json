@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "checked_at": "2026-10-07T12:37:14.285052+00:00",
+  "checked_at": "2026-10-07T12:45:18.224905+00:00",
   "checks": [
     {
       "check": "reports/artifact_verification.json",
@@ -228,8 +228,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 8804,
-      "sha256": "5d0508c303917c7924d6bcde5f53074cb66dca19cb96fa219bee91a40a2d3e1f"
+      "bytes": 8547,
+      "sha256": "e5e8a48940b5e7f31085adbd1e1bcbe30b03c154be858e01f1cc5d311bb27a16"
     },
     {
       "path": "NOTICE.md",
