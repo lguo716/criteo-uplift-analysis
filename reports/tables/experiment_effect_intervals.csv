@@ -1,0 +1,9 @@
+﻿outcome,outcome_label,metric,estimate,ci_lower,ci_upper,confidence_level,method,unit,n,n_treatment,n_control
+visit,访问,rate_treatment,0.0484389674813,0.0481761429368,0.0487031524961,0.95,Wilson,proportion,3000000,2550075,449925
+visit,访问,rate_control,0.037904095127,0.0373500339392,0.0384660469953,0.95,Wilson,proportion,3000000,2550075,449925
+visit,访问,absolute_difference,0.0105348723544,0.00991449614307,0.0111486944147,0.95,Newcombe hybrid score,proportion_difference,3000000,2550075,449925
+visit,访问,relative_lift,0.277934938668,0.258035355887,0.298149292726,0.95,"log-risk-ratio normal, minus one",relative_change,3000000,2550075,449925
+conversion,转化,rate_treatment,0.00305677284001,0.00298976281332,0.00312528006508,0.95,Wilson,proportion,3000000,2550075,449925
+conversion,转化,rate_control,0.00194254597989,0.00181806927202,0.00207552744238,0.95,Wilson,proportion,3000000,2550075,449925
+conversion,转化,absolute_difference,0.00111422686013,0.000965316104824,0.00125631025355,0.95,Newcombe hybrid score,proportion_difference,3000000,2550075,449925
+conversion,转化,relative_lift,0.573590984031,0.467437052714,0.687424057097,0.95,"log-risk-ratio normal, minus one",relative_change,3000000,2550075,449925

@@ -1,0 +1,19 @@
+{
+  "source_sha256": "2716e1bf0fd157a93b5bf86924d9088419dfbac2022c6cd90030220634f616dc",
+  "source_rows": 13979592,
+  "sample_size": 3000000,
+  "seed": 42,
+  "sampling": "uniform_without_replacement_over_all_verified_source_positions",
+  "positions_sha256": "dd6459a50a9920fb5660969c87fca3aeae23f68b09e0e56d621b088e2b7747ed",
+  "split_counts": {
+    "test": 600000,
+    "train": 1800000,
+    "validation": 600000
+  },
+  "duplicate_anonymized_profiles_retained": 71981,
+  "source_treatment_rate": 0.8500001287591226,
+  "source_visit_rate": 0.046992000911042324,
+  "source_conversion_rate": 0.002916680257907384,
+  "prepared_at": "2026-10-07T09:05:17.711801+00:00",
+  "parquet_sha256": "1e808ff49777311a7f606ec089a25fdb4cfc5e98c24186473803c7d31e9762fa"
+}

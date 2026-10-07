@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "application": "Microsoft Power BI Desktop 2.158.1177.0",
+  "checks": [
+    {
+      "check": "experiment_conversion_slicer",
+      "observed": "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t1839 组合框 (settable, string) outcome_label Value: 所有 \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t1860 图形 实验组发生率 0.306%.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t1867 图形 对照组发生率 0.194%.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t2135 图形 绝对差（百分点） 0.1114.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t1885 图形 相对提升 57.36%.",
+      "passed": true
+    },
+    {
+      "check": "model_conversion_slicer",
+      "observed": "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t3330 图形 验证集选定的Uplift模型 T-Learner.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t3645 行 S-Learner 0.000302 0.000154 0.000470\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t3650 行 T-Learner 0.000394 0.000247 0.000544\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t3655 行 响应概率排序 0.000485 0.000338 0.000650",
+      "passed": true
+    },
+    {
+      "check": "budget_zero",
+      "observed": "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t4176 图形 Uplift增量 / 每万人 0.00.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t4183 图形 响应排序增量 / 每万人 0.00.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t4190 图形 Uplift相对随机差 0.00.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t4197 图形 归一化触达成本 0.",
+      "passed": true
+    },
+    {
+      "check": "budget_fifty",
+      "observed": "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t4176 图形 Uplift增量 / 每万人 94.90.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t4183 图形 响应排序增量 / 每万人 103.76.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t4190 图形 Uplift相对随机差 42.23.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t4197 图形 归一化触达成本 5,000.",
+      "passed": true
+    },
+    {
+      "check": "budget_twenty_visit",
+      "observed": "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t4176 图形 Uplift增量 / 每万人 89.59.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t4183 图形 响应排序增量 / 每万人 97.28.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t4190 图形 Uplift相对随机差 68.52.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t4197 图形 归一化触达成本 2,000.",
+      "passed": true
+    },
+    {
+      "check": "pbix_reopen_native_refresh",
+      "passed": true,
+      "observed": "New Desktop process 25416 opened criteo_uplift_analysis.pbix; ribbon Refresh dialog completed and report returned without errors",
+      "checked_at": "2026-10-07T11:25:44.316Z"
+    },
+    {
+      "check": "pbix_conversion_interval_slicer",
+      "passed": true,
+      "observed": [
+        "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t493 图形 实验组发生率 0.306%.",
+        "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t495 图形 对照组发生率 0.194%.",
+        "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t497 图形 绝对差（百分点） 0.1114.",
+        "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t499 图形 相对提升 57.36%.",
+        "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t591 图形 率差95%区间（百分点） [0.0965, 0.1256]."
+      ],
+      "checked_at": "2026-10-07T11:26:24.833Z"
+    },
+    {
+      "check": "pbix_budget_full",
+      "passed": true,
+      "observed": [
+        "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t2058 图形 Uplift增量 / 每万人 105.33.",
+        "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t2065 图形 响应排序增量 / 每万人 105.33.",
+        "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t2072 图形 Uplift相对随机差 0.00.",
+        "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t2079 图形 归一化触达成本 10,000.",
+        "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t2122 图形符号 Uplift 定向 Description: Uplift 定向",
+        "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t2130 图形符号 响应概率排序 Description: 响应概率排序"
+      ],
+      "checked_at": "2026-10-07T11:28:47.331Z"
+    },
+    {
+      "check": "pbix_models_page",
+      "passed": true,
+      "observed": [
+        "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t2366 图形 验证集选定的Uplift模型 S-Learner.",
+        "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t2416 图形符号 S-Learner Description: S-Learner",
+        "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t2539 图形符号 S-Learner Description: S-Learner",
+        "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t2568 行 S-Learner 0.003729 0.003202 0.004259",
+        "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t2570 项 (selectable) 0.003729",
+        "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t2583 行 响应概率排序 0.004493 0.003917 0.005059",
+        "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t2585 项 (selectable) 0.004493"
+      ],
+      "checked_at": "2026-10-07T11:29:24.731Z"
+    },
+    {
+      "check": "pbix_saved_after_refresh",
+      "passed": true,
+      "observed": "Native Ctrl+S saved at 19:34; Desktop Bridge pid 25416 reports hasUnsavedChanges=false",
+      "checked_at": "2026-10-07T11:34:38.229Z"
+    }
+  ]
+}

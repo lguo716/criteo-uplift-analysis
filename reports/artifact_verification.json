@@ -1,0 +1,190 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "source_hash_identity",
+      "passed": true
+    },
+    {
+      "check": "sample_file_sha256",
+      "passed": true
+    },
+    {
+      "check": "sample_positions_sha256",
+      "passed": true
+    },
+    {
+      "check": "split_proportions",
+      "passed": true
+    },
+    {
+      "check": "finite_features",
+      "passed": true
+    },
+    {
+      "check": "twelve_pre_assignment_predictors",
+      "passed": true
+    },
+    {
+      "check": "visit_heldout_ids",
+      "passed": true
+    },
+    {
+      "check": "visit_labels_split",
+      "passed": true
+    },
+    {
+      "check": "visit_labels_treatment",
+      "passed": true
+    },
+    {
+      "check": "visit_labels_visit",
+      "passed": true
+    },
+    {
+      "check": "visit_labels_conversion",
+      "passed": true
+    },
+    {
+      "check": "visit_validation_test_disjoint",
+      "passed": true
+    },
+    {
+      "check": "visit_finite_s_learner",
+      "passed": true
+    },
+    {
+      "check": "visit_zero_budget_s_learner",
+      "passed": true
+    },
+    {
+      "check": "visit_full_budget_s_learner",
+      "passed": true
+    },
+    {
+      "check": "visit_finite_t_learner",
+      "passed": true
+    },
+    {
+      "check": "visit_zero_budget_t_learner",
+      "passed": true
+    },
+    {
+      "check": "visit_full_budget_t_learner",
+      "passed": true
+    },
+    {
+      "check": "visit_finite_response",
+      "passed": true
+    },
+    {
+      "check": "visit_zero_budget_response",
+      "passed": true
+    },
+    {
+      "check": "visit_full_budget_response",
+      "passed": true
+    },
+    {
+      "check": "visit_finite_x_learner",
+      "passed": true
+    },
+    {
+      "check": "visit_zero_budget_x_learner",
+      "passed": true
+    },
+    {
+      "check": "visit_full_budget_x_learner",
+      "passed": true
+    },
+    {
+      "check": "visit_validation_selection",
+      "passed": true
+    },
+    {
+      "check": "conversion_heldout_ids",
+      "passed": true
+    },
+    {
+      "check": "conversion_labels_split",
+      "passed": true
+    },
+    {
+      "check": "conversion_labels_treatment",
+      "passed": true
+    },
+    {
+      "check": "conversion_labels_visit",
+      "passed": true
+    },
+    {
+      "check": "conversion_labels_conversion",
+      "passed": true
+    },
+    {
+      "check": "conversion_validation_test_disjoint",
+      "passed": true
+    },
+    {
+      "check": "conversion_finite_s_learner",
+      "passed": true
+    },
+    {
+      "check": "conversion_zero_budget_s_learner",
+      "passed": true
+    },
+    {
+      "check": "conversion_full_budget_s_learner",
+      "passed": true
+    },
+    {
+      "check": "conversion_finite_t_learner",
+      "passed": true
+    },
+    {
+      "check": "conversion_zero_budget_t_learner",
+      "passed": true
+    },
+    {
+      "check": "conversion_full_budget_t_learner",
+      "passed": true
+    },
+    {
+      "check": "conversion_finite_response",
+      "passed": true
+    },
+    {
+      "check": "conversion_zero_budget_response",
+      "passed": true
+    },
+    {
+      "check": "conversion_full_budget_response",
+      "passed": true
+    },
+    {
+      "check": "conversion_validation_selection",
+      "passed": true
+    },
+    {
+      "check": "normalized_cost",
+      "passed": true
+    },
+    {
+      "check": "zero_budget_no_effect_or_efficiency",
+      "passed": true
+    },
+    {
+      "check": "incremental_per_10000_finite",
+      "passed": true
+    },
+    {
+      "check": "ci_lower_per_10000_finite",
+      "passed": true
+    },
+    {
+      "check": "ci_upper_per_10000_finite",
+      "passed": true
+    }
+  ],
+  "n_checks": 46
+}

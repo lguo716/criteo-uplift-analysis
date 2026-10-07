@@ -1,0 +1,7 @@
+﻿check,scope,value,passed
+missing_cells,full_source,0,True
+nonfinite_features,full_source,0,True
+nonbinary_labels,full_source,0,True
+control_exposed,full_source,0,True
+conversion_without_visit,full_source,0,True
+source_rows_match,full_source,13979592,True

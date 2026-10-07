@@ -1,0 +1,4 @@
+# Preserve delivery SHA256 identities and Power BI file bytes across platforms.
+* -text
+*.png binary
+*.pbix binary

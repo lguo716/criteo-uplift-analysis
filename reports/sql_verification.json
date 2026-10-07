@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "sql_row_count",
+      "passed": true
+    },
+    {
+      "check": "sql_unique_ids",
+      "passed": true
+    },
+    {
+      "check": "sql_logical_constraints",
+      "passed": true
+    },
+    {
+      "check": "visit_sql_ate",
+      "passed": true
+    },
+    {
+      "check": "visit_sql_counts",
+      "passed": true
+    },
+    {
+      "check": "conversion_sql_ate",
+      "passed": true
+    },
+    {
+      "check": "conversion_sql_counts",
+      "passed": true
+    }
+  ]
+}

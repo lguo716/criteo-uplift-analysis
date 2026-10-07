@@ -1,0 +1,7 @@
+{
+  "stage": "verify",
+  "sample_size": 3000000,
+  "seed": 42,
+  "bootstrap": 500,
+  "started_at": "2026-10-07T11:45:40.943526+00:00"
+}

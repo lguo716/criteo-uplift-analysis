@@ -1,0 +1,850 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-07T12:11:54.352240+00:00",
+  "checks": [
+    {
+      "check": "reports/artifact_verification.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "reports/sql_verification.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "powerbi/desktop_verification.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "powerbi/desktop_interaction_verification.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "native_pbix_saved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pbix_package_integrity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pbix_has_native_model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pbix_three_editable_pages",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pbix_experiment_visuals",
+      "passed": true,
+      "detail": 14
+    },
+    {
+      "check": "experiment_screenshot_resolution",
+      "passed": true,
+      "detail": [
+        2892,
+        1624
+      ]
+    },
+    {
+      "check": "pbix_models_visuals",
+      "passed": true,
+      "detail": 10
+    },
+    {
+      "check": "models_screenshot_resolution",
+      "passed": true,
+      "detail": [
+        2892,
+        1624
+      ]
+    },
+    {
+      "check": "pbix_budget_visuals",
+      "passed": true,
+      "detail": 12
+    },
+    {
+      "check": "budget_screenshot_resolution",
+      "passed": true,
+      "detail": [
+        2892,
+        1624
+      ]
+    },
+    {
+      "check": "semantic_model_tables",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "saved_dax_catalog_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "complete_experiment_intervals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "experiment_interval_population",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "two_notebooks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "01_experiment_analysis.ipynb_executed",
+      "passed": true,
+      "detail": 4
+    },
+    {
+      "check": "02_uplift_and_strategy.ipynb_executed",
+      "passed": true,
+      "detail": 4
+    },
+    {
+      "check": "nine_learning_stages",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "README.md_substantial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NOTICE.md_substantial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "data/README.md_substantial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "powerbi/README.md_substantial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "docs/learning_stage_01_business_and_data.md_substantial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "docs/learning_stage_02_quality_and_sampling.md_substantial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "docs/learning_stage_03_experiment_analysis.md_substantial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "docs/learning_stage_04_feature_balance.md_substantial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "docs/learning_stage_05_uplift_models.md_substantial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "docs/learning_stage_06_evaluation.md_substantial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "docs/learning_stage_07_budget_strategy.md_substantial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "docs/learning_stage_08_powerbi.md_substantial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "docs/learning_stage_09_interview.md_substantial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "docs/metric_definitions.md_substantial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "docs/project_complete_walkthrough.md_substantial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "reports/findings.md_substantial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "reports/interview_guide.md_substantial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "reports/project_acceptance.md_substantial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "reports/resume_bullets.md_substantial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "local_document_links",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "official_local_structure_validation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "online_validation_no_errors",
+      "passed": true,
+      "detail": {
+        "warningCount": 6,
+        "scope": "remote schema availability warnings retained"
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 8871,
+      "sha256": "0a8f992a778e843896f3eede527f150df2fceba159b6511af683aeb9ae8703f4"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 1517,
+      "sha256": "5ace24c06271dbf319be7abc59b6be77aecdc00bd735665f0f515bc26ad274b8"
+    },
+    {
+      "path": "data/README.md",
+      "bytes": 908,
+      "sha256": "e2472e381ca00652420bd02395f5b7045f1b736d06787c8f7460d27275bf71f6"
+    },
+    {
+      "path": "powerbi/README.md",
+      "bytes": 6384,
+      "sha256": "c66858d472160b46382cea8be647fa06ea94a764e3eee3d38611ce9f48d0b94b"
+    },
+    {
+      "path": "docs/learning_stage_01_business_and_data.md",
+      "bytes": 1014,
+      "sha256": "7d9a1e6a5c9f71d6a1b5c045f90861f0da8779d870f2aa5284853d3c49847657"
+    },
+    {
+      "path": "docs/learning_stage_02_quality_and_sampling.md",
+      "bytes": 1312,
+      "sha256": "c725d4ea6848084093f063d195772b40bded287f0e04df4fe993723a90051eb2"
+    },
+    {
+      "path": "docs/learning_stage_03_experiment_analysis.md",
+      "bytes": 1184,
+      "sha256": "1fd1ab59f68d761f34e4b9a8a9e35740482faf6a9a76a5974836fa11be5394a0"
+    },
+    {
+      "path": "docs/learning_stage_04_feature_balance.md",
+      "bytes": 1154,
+      "sha256": "7ceb59929b9201b1a1ab5b33d75ac2c483dc7c13a318d76cc8953d99378cb5a7"
+    },
+    {
+      "path": "docs/learning_stage_05_uplift_models.md",
+      "bytes": 1293,
+      "sha256": "c20a4b28b64b1fa96772a14f7ab79a7fd8d24ae4c26f250d2cde2d3680d3d166"
+    },
+    {
+      "path": "docs/learning_stage_06_evaluation.md",
+      "bytes": 1352,
+      "sha256": "5e95d7d37f52941f1abf2d501b3f9a2913da079d16622da28a5d63e8ad5e7391"
+    },
+    {
+      "path": "docs/learning_stage_07_budget_strategy.md",
+      "bytes": 1368,
+      "sha256": "e93df4868ecb861c501b252d19dd8217bc165754a5fb169f585954654cdb6bb7"
+    },
+    {
+      "path": "docs/learning_stage_08_powerbi.md",
+      "bytes": 1825,
+      "sha256": "9aced4313350d7759c72b9c3e28dc430b7a68d5a23dc64452fc364dba3034bf7"
+    },
+    {
+      "path": "docs/learning_stage_09_interview.md",
+      "bytes": 1369,
+      "sha256": "30a59c45dea61f5d480ca74f4b70c700ad9bf2e824343df36a5424af22082b60"
+    },
+    {
+      "path": "docs/metric_definitions.md",
+      "bytes": 6027,
+      "sha256": "3020bd8157a1fba6f198d7781a855052ab7da16570d42791de0006d6790e39af"
+    },
+    {
+      "path": "docs/project_complete_walkthrough.md",
+      "bytes": 5647,
+      "sha256": "a16c38d936781d8fe591ecda617dc282f11a750295d74dfec5c673e151ba4acd"
+    },
+    {
+      "path": "reports/findings.md",
+      "bytes": 5164,
+      "sha256": "6013b6a82d469899e7e1d7b41349d9bcbf2b5ca3e702dc210758c23628bea4c5"
+    },
+    {
+      "path": "reports/interview_guide.md",
+      "bytes": 3557,
+      "sha256": "34ff5f44a76c5c7688bc2f3a9d753a3fdbf57875e0feaf1c97c992f17e079029"
+    },
+    {
+      "path": "reports/project_acceptance.md",
+      "bytes": 6415,
+      "sha256": "66e66a0b7926dd1e9b92c46b648b01cfe3069d613fee289c0014c3f5a3d2a624"
+    },
+    {
+      "path": "reports/resume_bullets.md",
+      "bytes": 1048,
+      "sha256": "60cf7d8b4691f422ca6c5aed5191146832719958934ab5f817abad54ced93f6b"
+    },
+    {
+      "path": "powerbi/criteo_uplift_analysis.pbix",
+      "bytes": 277773,
+      "sha256": "12ea093ca5de103650a686edea7671ac5cc8bb0c8ec3701394e43b631531bb05"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 1106,
+      "sha256": "029df6852374a7e3a027b1e8012dff5f4636853880367becbcda20dfe72f4418"
+    },
+    {
+      "path": "requirements.in",
+      "bytes": 202,
+      "sha256": "284d3ca8e9858bb892bdc3f5eb075d38ef5ea0f3dc4aae80ce3c2f7b7293cd6a"
+    },
+    {
+      "path": "powerbi/Criteo.pbip",
+      "bytes": 284,
+      "sha256": "a542e97bf44b18607342506e97ca8b3109fbf4b4dbc3c6890f43333aae4d7c63"
+    },
+    {
+      "path": "powerbi/measures.dax",
+      "bytes": 6579,
+      "sha256": "14403e71a07f0e7853c843dc4846e2737d002988aa95c34e2cf2919f0f860c23"
+    },
+    {
+      "path": "data/source_manifest.json",
+      "bytes": 442,
+      "sha256": "43b36eda992f3401778931cfeeea7ec0ea578620f771ff5e3774cb832d2a5706"
+    },
+    {
+      "path": "data/sample_manifest.json",
+      "bytes": 770,
+      "sha256": "93aa8320b7691fe7f0a54dd189730938acfa2e033370080e626e6477e07d6439"
+    },
+    {
+      "path": "src/__init__.py",
+      "bytes": 61,
+      "sha256": "b78c4dad9dac9f6ff74a22b5d3d63fcda524a54a93aba306ec767f9b3ea94394"
+    },
+    {
+      "path": "src/config.py",
+      "bytes": 833,
+      "sha256": "9ab831984a7aff069318ea1291273d36d5cc508d61a598a300925d950c78ea44"
+    },
+    {
+      "path": "src/data.py",
+      "bytes": 5840,
+      "sha256": "a42acab2438bf4d9bfead938874024711d7941458f60eb2ba1785deb0fa9a7db"
+    },
+    {
+      "path": "src/download.py",
+      "bytes": 3060,
+      "sha256": "5c0c9196353a38a81a0beb541cf96cdc9d6533e3284ca4715d752fc7846d0325"
+    },
+    {
+      "path": "src/evaluate.py",
+      "bytes": 8739,
+      "sha256": "79e01099496fdff280e8bbc3597bd9e17790b5ca93f5cea7f270921d59db713b"
+    },
+    {
+      "path": "src/execute_notebooks.py",
+      "bytes": 1008,
+      "sha256": "3d47e90d7c06dd6473bd63992a38d80625e33845af2c984b5d567344eaca29c9"
+    },
+    {
+      "path": "src/experiment.py",
+      "bytes": 6154,
+      "sha256": "235d38061432074616fa68658a6fbe8f352869dde33a506f18aee6dc8f0a118f"
+    },
+    {
+      "path": "src/learn.py",
+      "bytes": 550,
+      "sha256": "4f2593e4d5be7455c55586a7e83361e9bd8becb5fecee1766029b37358ab2920"
+    },
+    {
+      "path": "src/metrics.py",
+      "bytes": 4234,
+      "sha256": "3739273692d2f4d6b6e2530add962beca6573a93d74443dcf9e8ffaea3a31de1"
+    },
+    {
+      "path": "src/models.py",
+      "bytes": 6539,
+      "sha256": "63f54c1c9663b867126a1ccef0d657f445cdbac7a2a54e8e2159e861e578ed27"
+    },
+    {
+      "path": "src/reporting.py",
+      "bytes": 23386,
+      "sha256": "0019b123b8dcf4a7dedf46a6ba3b1de6de3e11e0a2af8426b77bc9a05bb27a00"
+    },
+    {
+      "path": "src/run_pipeline.py",
+      "bytes": 2528,
+      "sha256": "2ec16a16d95b7b312b7af61c0ce970c7f32f93cb85a1013e609ab54ad69340cc"
+    },
+    {
+      "path": "src/sql_checks.py",
+      "bytes": 1848,
+      "sha256": "89313c7b220f39de4e65fd6e0f2d89b47efc7789c7d5212000dfee107db5c4f0"
+    },
+    {
+      "path": "src/utils.py",
+      "bytes": 1179,
+      "sha256": "a2cd551b21c9331acf1b0694c95203f1b0b6c5f4d4e1e13b451f4dc8822f1890"
+    },
+    {
+      "path": "src/verify.py",
+      "bytes": 4228,
+      "sha256": "6bb1dc2bb29bc2c31546d4f1e963ec1955d07f310a74f811aa5446cb33874a47"
+    },
+    {
+      "path": "tests/test_methods.py",
+      "bytes": 6005,
+      "sha256": "20bf41cc96bbcf1608e1d66061a038a8f21579d8323b74ff883cc074d7b4687b"
+    },
+    {
+      "path": "sql/01_quality_checks.sql",
+      "bytes": 338,
+      "sha256": "f94a53553ce6de544a13189fb19f5fc8b483fde1c63d045001ca78bb6cd719c9"
+    },
+    {
+      "path": "sql/02_experiment_metrics.sql",
+      "bytes": 738,
+      "sha256": "6cdbf8e706b59e7f5fad37d32a1fc569c7bf5b2133b04af14505071974f69403"
+    },
+    {
+      "path": "sql/03_split_checks.sql",
+      "bytes": 161,
+      "sha256": "f4520395899aaf97679122cdc1c09002ae889eb148532c080c4d26324d15c111"
+    },
+    {
+      "path": "powerbi/build_dashboard.py",
+      "bytes": 22050,
+      "sha256": "b8845956a9c05a8e2806139e367cfd9e101462ee73516c2d601b4bc7b9b5aaf1"
+    },
+    {
+      "path": "powerbi/capture_pages.mjs",
+      "bytes": 1563,
+      "sha256": "71a84b10320e3b3f7fdbe39469fa4e2997c129050bcb05cfb2c881c7990e3d15"
+    },
+    {
+      "path": "powerbi/sync_display_metadata.ps1",
+      "bytes": 2389,
+      "sha256": "7ceba868f33ea19ca9497c8dd7f0c73fe79cb63cd2a6ba5feabfe1905ed681ba"
+    },
+    {
+      "path": "powerbi/verify_desktop.ps1",
+      "bytes": 8080,
+      "sha256": "eb181404443b107fa5c1bcc7000352592415ae039a3060d1fe9ab65393112063"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/budget/page.json",
+      "bytes": 764,
+      "sha256": "62d9615ad9326c911a356074bdbf2ee114553acf92b9d84816de3c8f9c40314a"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/budget/visuals/budget_curves/visual.json",
+      "bytes": 7089,
+      "sha256": "6a6ba6754f41507d4488f7cba37f0d9384971c8a6dbef13df9496e92acc8601c"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/budget/visuals/budget_kpi_0/visual.json",
+      "bytes": 4344,
+      "sha256": "f95d18083f737d327bf7de8c6b845bbc5e4386d9f95787623fe3f0c3780b3de1"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/budget/visuals/budget_kpi_1/visual.json",
+      "bytes": 4362,
+      "sha256": "00bfc7e025c13331c1050287b2a87cdecbb8f3f1ff58c991552c6c8436dd33c4"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/budget/visuals/budget_kpi_2/visual.json",
+      "bytes": 4353,
+      "sha256": "57dd2f3cf0e3207a2b120cd8754ec73fe0b4dedf26bfbfb2edf3abea21484dc3"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/budget/visuals/budget_kpi_3/visual.json",
+      "bytes": 4330,
+      "sha256": "e3b14e3315859bb02004173f8153374149a7cf0b4ab5964560f1a129afe21517"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/budget/visuals/budget_slicer/visual.json",
+      "bytes": 5549,
+      "sha256": "f1d6bb0b0f0cf5ae3f5fbffc404cea123105fce394a0de219f2086c29afa7ae3"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/budget/visuals/decision/visual.json",
+      "bytes": 3444,
+      "sha256": "6d26c6e82d387cfebbebf58eee9adb42d3fe177206a20fcca27c00f9a32984b9"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/budget/visuals/footnote/visual.json",
+      "bytes": 3424,
+      "sha256": "20e36dcb5a0a188a62cd4ca178a3535b7e36df4d91841adc0e40c0343c2d9e62"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/budget/visuals/heading/visual.json",
+      "bytes": 3263,
+      "sha256": "caac0a10ab8178c3cadff9218fb51db1638d63b4a04bc55063f257f69deddcc1"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/budget/visuals/outcome_slicer/visual.json",
+      "bytes": 5559,
+      "sha256": "0c0432ce62f70cd18a271584f9aa94125281343bffbd22843491914202c2f949"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/budget/visuals/strategy_table/visual.json",
+      "bytes": 6932,
+      "sha256": "affaac8c841491a914d10c3a9ff1a0ffc1da5b221a078253f6fc066d6969f060"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/budget/visuals/subtitle/visual.json",
+      "bytes": 3381,
+      "sha256": "2efeaeb9d5ac2a5d1d4c9ba5cd814508491c4d2d6f8e9e14852a598e360b25c3"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/experiment/page.json",
+      "bytes": 768,
+      "sha256": "db6e13cfa0d9834d3332f88d639669ae0e0e36b7d4e3e4d27cd357a795e2a334"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/experiment/visuals/balance_chart/visual.json",
+      "bytes": 4397,
+      "sha256": "01d962f8dbf8934bd5eb9918e89079aa08c91647f6148a5d915b53d26d4ad968"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/experiment/visuals/data_limit/visual.json",
+      "bytes": 3360,
+      "sha256": "89a41abd3d237b56c0bd1065073d528ec9e78a8855561aa8ae92dd03b96935a1"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/experiment/visuals/evidence/visual.json",
+      "bytes": 4334,
+      "sha256": "a3d3b37be1fe2d0c0872e08e3ec2cb189b4362da694c334f01e6627851089830"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/experiment/visuals/footnote/visual.json",
+      "bytes": 3401,
+      "sha256": "1c16b85fc728903dc65d7fdd5d6eacc407a005ccaaf69f2d83281c97edb3ad07"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/experiment/visuals/group_rates/visual.json",
+      "bytes": 4193,
+      "sha256": "f61980988d7a5e90caf581cfad44a5a19f7beb5ddab64468ff72399ddbda93ee"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/experiment/visuals/group_table/visual.json",
+      "bytes": 7303,
+      "sha256": "0bed25ad07b6f9ad2999ec41d0eb58378aaf41cdb6fcbe9c0cb14f6fd82e073c"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/experiment/visuals/heading/visual.json",
+      "bytes": 3263,
+      "sha256": "1162b8f5664b10dbfb47d575ea0e129e128af0f784d12d63512d0b7622503ec2"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/experiment/visuals/kpi_0/visual.json",
+      "bytes": 4282,
+      "sha256": "931154cdde3d9ad9e6d0591a8685d13ac2887b0336b0fe7de79f540a6a0213e0"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/experiment/visuals/kpi_1/visual.json",
+      "bytes": 4313,
+      "sha256": "631b8c641bb6641100af921b5e5ed2dc07b4c4e92e9354c9c93509052afbc09d"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/experiment/visuals/kpi_2/visual.json",
+      "bytes": 4307,
+      "sha256": "46832a31b56cafe91dd323fcbad0feda50a5e7ef10947779f9c0d6c6af637032"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/experiment/visuals/kpi_3/visual.json",
+      "bytes": 4313,
+      "sha256": "74c0965fbc6be07a54db67226a061eb9d1b71f31df714e480ab1b7144e8dd278"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/experiment/visuals/kpi_4/visual.json",
+      "bytes": 4299,
+      "sha256": "fba3fc306c778e9ba6ec13a82acc95621b96642a20def2ec5ba3f92cc0705457"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/experiment/visuals/outcome_slicer/visual.json",
+      "bytes": 5559,
+      "sha256": "0c0432ce62f70cd18a271584f9aa94125281343bffbd22843491914202c2f949"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/experiment/visuals/subtitle/visual.json",
+      "bytes": 3377,
+      "sha256": "8dacd1a02b2f45e707f87484302574e8a37bb17a4a2c7a5832c96d4f26c14a9e"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/models/page.json",
+      "bytes": 767,
+      "sha256": "f945f58a04b718a5bed0356590bac385fc9c100711f1e9e92330338c09bb1337"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/models/visuals/chosen/visual.json",
+      "bytes": 4337,
+      "sha256": "fd3245749bb4380eea7390c829fd2abf5b9ad10c99cbb0448ac925a14c1fd92d"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/models/visuals/deciles/visual.json",
+      "bytes": 4910,
+      "sha256": "6f2c93c862fcbc1ad2e84c12cad8b29393a34c99063f17d82d217c698ea25c2f"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/models/visuals/footnote/visual.json",
+      "bytes": 3419,
+      "sha256": "cc1fee75971c35e87265f3c5804548e4f097ae3fbec573191ab1fe6de79d6461"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/models/visuals/gain_curves/visual.json",
+      "bytes": 5233,
+      "sha256": "9ee6b3bbfb6748364532d4128e23f1c0b45036ba41815c0ebebc36ce048480e5"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/models/visuals/heading/visual.json",
+      "bytes": 3266,
+      "sha256": "09e0bf2ea05ad9d5610fb32dda3cbfe3a6a5c4d6a109e524c0c5504b2f67c28c"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/models/visuals/model_note/visual.json",
+      "bytes": 3348,
+      "sha256": "5355274644f506f7e6286dd9510decd6ed97d7449e66a54b24a03f8ed1e99a5a"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/models/visuals/model_table/visual.json",
+      "bytes": 6340,
+      "sha256": "644c20af9f26a21800ff9e8999bc3db6c9038b502ac73014dde42936494f5184"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/models/visuals/outcome_slicer/visual.json",
+      "bytes": 5559,
+      "sha256": "0c0432ce62f70cd18a271584f9aa94125281343bffbd22843491914202c2f949"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/models/visuals/qini/visual.json",
+      "bytes": 4340,
+      "sha256": "0ae4f43bab8e882a188d6e418f137f61b953ec429d734501ef334d9303b4e310"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/models/visuals/subtitle/visual.json",
+      "bytes": 3372,
+      "sha256": "9e8b54ef2b21f1594588bf069c0823c3792bdb2918229d1ee89a3af2c3e1051c"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/pages/pages.json",
+      "bytes": 234,
+      "sha256": "c1290f18b6aa3d255cae7422bbd3036f0c07572e2b7a7d1a04ac2d6ee74bf34a"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/report.json",
+      "bytes": 1342,
+      "sha256": "9fd83232915b49f54a9d1bccad2abc02044b1b4ecebc7dbdc6b8fcc9eb3492e2"
+    },
+    {
+      "path": "powerbi/Criteo.Report/definition/version.json",
+      "bytes": 152,
+      "sha256": "c8bdd966a85f1eaab4312d2096b6d7b508243e4d7bc5a4d25af3cfcb1056a4e7"
+    },
+    {
+      "path": "powerbi/Criteo.Report/StaticResources/RegisteredResources/Criteo_Portfolio.json",
+      "bytes": 228,
+      "sha256": "f9527de4debb4e8027555e7d75261c57dea1036dd2e926aabe0e0a914561bba0"
+    },
+    {
+      "path": "powerbi/Criteo.Report/StaticResources/SharedResources/BaseThemes/Fluent2-CY26SU09.json",
+      "bytes": 99684,
+      "sha256": "eb556359c12fe93c43047b494aa086e6f832a6bac211e6375b742c35ee784c78"
+    },
+    {
+      "path": "powerbi/Criteo.SemanticModel/model.bim",
+      "bytes": 90636,
+      "sha256": "2a0fd4cbc116d11e33c8b36d7fbc86a82c4d6955b74a299ea665fc0716379194"
+    },
+    {
+      "path": "notebooks/01_experiment_analysis.ipynb",
+      "bytes": 161031,
+      "sha256": "4dd84abf89629534238c7c9b23f38ed58ceac24eb71ca8ab391aaf7e2325d9dc"
+    },
+    {
+      "path": "notebooks/02_uplift_and_strategy.ipynb",
+      "bytes": 739219,
+      "sha256": "d78c308aee686ac8fa3739d6c20c6728e7859ca8a9d1dd6deffaf82d3a9a444f"
+    },
+    {
+      "path": "reports/tables/budget_strategies.csv",
+      "bytes": 7457,
+      "sha256": "e68a64a41a95e4fe6a08de4bc0409076f06a41c508fc7c09d208d8373eb0f2ec"
+    },
+    {
+      "path": "reports/tables/category_balance.csv",
+      "bytes": 313183,
+      "sha256": "388307f84eb3aa970384e5577c6a25e5060c26b52e7ffdc5c647eedf2e98053b"
+    },
+    {
+      "path": "reports/tables/data_quality_checks.csv",
+      "bytes": 265,
+      "sha256": "3da152412fff5771b6e5fcf87b9ac7f724121dcb6ee917f33096880dc5f9274e"
+    },
+    {
+      "path": "reports/tables/decile_profiles.csv",
+      "bytes": 9853,
+      "sha256": "60567af9f972512df36fdc73f41969bd37084a7bb7a05d106085a20a43ca2c40"
+    },
+    {
+      "path": "reports/tables/dim_budget.csv",
+      "bytes": 101,
+      "sha256": "5af111ebf873830087eaed2f7d80e8ddc1ba7b3d5b9b7fb5a720239e179e8e21"
+    },
+    {
+      "path": "reports/tables/dim_model.csv",
+      "bytes": 114,
+      "sha256": "620e426b93040c9318fc91dc94ebc16104fff0b15ced972f1b0b091a01b512cf"
+    },
+    {
+      "path": "reports/tables/dim_outcome.csv",
+      "bytes": 102,
+      "sha256": "46c8b64dc4333872a8a8a7dde76d84dc6163fc07b4f3bb3e1bf22b81bb117167"
+    },
+    {
+      "path": "reports/tables/dim_strategy.csv",
+      "bytes": 164,
+      "sha256": "a404c21aafcc8a03e024d9cda6f41dc03f779067380b718040ef84a7b8563b90"
+    },
+    {
+      "path": "reports/tables/experiment_effect_intervals.csv",
+      "bytes": 1243,
+      "sha256": "b991fa90e4a64fb9f799a3da4a13ed260f65b7b1c0bdf1e34a9d862b22f50b8a"
+    },
+    {
+      "path": "reports/tables/experiment_groups.csv",
+      "bytes": 445,
+      "sha256": "0b5ae3ba2ebe524281c0aab6920105730b54ccb53308f96c5eb01d15fb23eaa7"
+    },
+    {
+      "path": "reports/tables/experiment_summary.csv",
+      "bytes": 594,
+      "sha256": "70385951f5e574047a4243abdea5f58b05e26b1ce3001798bc89aeaa46978eda"
+    },
+    {
+      "path": "reports/tables/exposure_description.csv",
+      "bytes": 112,
+      "sha256": "e007e41db21b5028ec14a249e3aaf580fc88512e1e549d1cbfef5c533b7b42c8"
+    },
+    {
+      "path": "reports/tables/feature_balance.csv",
+      "bytes": 982,
+      "sha256": "266ebd7a6f51b382387d4d949bd5d56cdd4d6772ebab889d32308ba3d28efac7"
+    },
+    {
+      "path": "reports/tables/feature_importance.csv",
+      "bytes": 1899,
+      "sha256": "c6fc10cbbaed1c1c29e597e1883504be2c5b98e6efe4ac3797e5a764d4584173"
+    },
+    {
+      "path": "reports/tables/model_evaluation.csv",
+      "bytes": 2026,
+      "sha256": "d7a9a882d18652faaa00de0c6b9e0f1deec9ea3f9e01daa97de58410462dd3c8"
+    },
+    {
+      "path": "reports/tables/paired_uncertainty.csv",
+      "bytes": 1138,
+      "sha256": "89221c40e644d0e4adc656dd6160fe78291fa3b43e05e784c5d1389b25479400"
+    },
+    {
+      "path": "reports/tables/selected_models.csv",
+      "bytes": 145,
+      "sha256": "2728a6e7eaf990b79c87e48d7b86ffe2f8bd3b3e560deb84177a01d387dacf15"
+    },
+    {
+      "path": "reports/tables/split_counts.csv",
+      "bytes": 398,
+      "sha256": "791104c3661709c8ae47992bfec2350977e2b521b2622025d13463bbfa8b31bf"
+    },
+    {
+      "path": "reports/tables/sql_01_quality_checks.csv",
+      "bytes": 80,
+      "sha256": "64d0c7d4acffd02b015442bf62eefee94c515c96bafce1af861c8b0c729faa6b"
+    },
+    {
+      "path": "reports/tables/sql_02_experiment_metrics.csv",
+      "bytes": 271,
+      "sha256": "4d9d6b3f4b33190543d5af18b1af0b1fe5d4976e2d3e77a9d47ce25f5a0b8baf"
+    },
+    {
+      "path": "reports/tables/sql_03_split_checks.csv",
+      "bytes": 398,
+      "sha256": "791104c3661709c8ae47992bfec2350977e2b521b2622025d13463bbfa8b31bf"
+    },
+    {
+      "path": "reports/tables/training_iterations.csv",
+      "bytes": 329,
+      "sha256": "f1c05397b6216a2de2b74b2d2137bb83dc14f33eb99edba4e6dd4d1aa3a7cf12"
+    },
+    {
+      "path": "reports/tables/uplift_curves.csv",
+      "bytes": 137603,
+      "sha256": "23d92288ec7287d4930b9ebe5c7df92e15a454bb0e297d95ca3962a97fe49ca1"
+    },
+    {
+      "path": "reports/figures/powerbi/report_budget.png",
+      "bytes": 325659,
+      "sha256": "3a7eb1633f270ab7a4130230338e298338d21a604f43eb76079f9525b1f7e6ff"
+    },
+    {
+      "path": "reports/figures/powerbi/report_experiment.png",
+      "bytes": 269051,
+      "sha256": "0b1dafb10fbc75522a349a4214160bba65334613e9ae1952978656f104f5d15d"
+    },
+    {
+      "path": "reports/figures/powerbi/report_models.png",
+      "bytes": 291450,
+      "sha256": "18b8cb618569250e5b9afc610ba29524b2056d1d04738fc35ccd7bc3dc306210"
+    }
+  ]
+}

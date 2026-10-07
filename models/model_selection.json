@@ -1,0 +1,16 @@
+{
+  "visit": {
+    "model": "s_learner",
+    "validation_qini": 0.004240624081934274,
+    "selection_set": "validation",
+    "criterion": "normalized Qini area",
+    "primary": true
+  },
+  "conversion": {
+    "model": "t_learner",
+    "validation_qini": 0.00025285323272892775,
+    "selection_set": "validation",
+    "criterion": "normalized Qini area",
+    "primary": false
+  }
+}

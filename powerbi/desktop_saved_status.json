@@ -1,0 +1,13 @@
+{
+  "status": "ready",
+  "instances": [
+    {
+      "pid": 25416,
+      "bridgeStatus": "connected",
+      "currentFilePath": "D:\\resume\\projects\\criteo-uplift-analysis\\powerbi\\criteo_uplift_analysis.pbix",
+      "hasUnsavedChanges": false,
+      "reportDir": null,
+      "pages": []
+    }
+  ]
+}

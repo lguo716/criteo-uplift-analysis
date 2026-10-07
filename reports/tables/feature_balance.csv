@@ -1,0 +1,13 @@
+﻿feature,kind,metric,difference,mean_treatment,mean_control,reference_threshold,balanced_descriptively
+f0,continuous,absolute_SMD,0.00737395007149,19.6168703459,19.6565542649,0.1,True
+f2,continuous,absolute_SMD,0.00649834253167,8.44609122373,8.44803950135,0.1,True
+f7,continuous,absolute_SMD,0.0183515402587,5.10503241002,5.0831811766,0.1,True
+f10,continuous,absolute_SMD,0.0127523213514,5.33379386553,5.33166808305,0.1,True
+f1,categorical,total_variation_distance,0.00265704222143,,,0.1,True
+f3,categorical,total_variation_distance,0.0131514690896,,,0.1,True
+f4,categorical,total_variation_distance,0.00312661745955,,,0.1,True
+f5,categorical,total_variation_distance,0.00548057317743,,,0.1,True
+f6,categorical,total_variation_distance,0.0142600079141,,,0.1,True
+f8,categorical,total_variation_distance,0.0126567507925,,,0.1,True
+f9,categorical,total_variation_distance,0.00871902141169,,,0.1,True
+f11,categorical,total_variation_distance,0.00094479798344,,,0.1,True

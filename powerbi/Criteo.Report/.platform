@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Criteo广告增量分析"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "90913d1b-d4af-424e-83b0-62d2d906b9de"
+  }
+}

@@ -1,0 +1,11 @@
+﻿outcome,component,best_iteration,n_features,objective
+visit,s,111,13,binary
+visit,t0,74,12,binary
+visit,t1,111,12,binary
+visit,response,113,12,binary
+visit,x0,12,12,regression
+visit,x1,75,12,regression
+conversion,s,59,13,binary
+conversion,t0,34,12,binary
+conversion,t1,63,12,binary
+conversion,response,68,12,binary

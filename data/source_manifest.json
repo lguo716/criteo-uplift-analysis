@@ -1,0 +1,11 @@
+{
+  "publisher": "Criteo AI Lab",
+  "version": "v2.1",
+  "url": "https://huggingface.co/datasets/criteo/criteo-uplift/resolve/main/criteo-research-uplift-v2.1.csv.gz",
+  "file": "criteo-research-uplift-v2.1.csv.gz",
+  "bytes": 311422618,
+  "sha256": "2716e1bf0fd157a93b5bf86924d9088419dfbac2022c6cd90030220634f616dc",
+  "expected_rows": 13979592,
+  "license": "CC BY-NC-SA 4.0",
+  "verified_at": "2026-10-07T10:57:30.419594+00:00"
+}

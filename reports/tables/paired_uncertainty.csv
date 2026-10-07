@@ -1,0 +1,8 @@
+﻿outcome,model,budget_fraction,paired_vs_random_ci_lower,paired_vs_random_ci_upper,paired_vs_response_ci_lower,paired_vs_response_ci_upper,n_bootstrap,interval_scope
+visit,s_learner,0.2,0.00599154936785,0.00771223448502,-0.0013215383222,-0.000149577663354,500,conditional_on_fitted_models_and_fixed_topK_masks
+visit,t_learner,0.2,0.00529351979337,0.00713429237249,-0.0021411061754,-0.000667263696327,500,conditional_on_fitted_models_and_fixed_topK_masks
+visit,response,0.2,0.00661126671934,0.00865536351062,0,0,500,conditional_on_fitted_models_and_fixed_topK_masks
+visit,x_learner,0.2,0.00601782637822,0.0078523106661,-0.00143681380992,2.32872323486e-05,500,conditional_on_fitted_models_and_fixed_topK_masks
+conversion,s_learner,0.2,0.00036262040229,0.00084688407811,-0.000312778266851,-3.15860920367e-05,500,conditional_on_fitted_models_and_fixed_topK_masks
+conversion,t_learner,0.2,0.000495816859647,0.000952979013229,-0.000240478972149,9.00082123527e-05,500,conditional_on_fitted_models_and_fixed_topK_masks
+conversion,response,0.2,0.000538916371882,0.00105948795615,0,0,500,conditional_on_fitted_models_and_fixed_topK_masks

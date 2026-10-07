@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "description": "Pinned Microsoft Power BI report validation and Desktop Bridge tools",
+  "dependencies": {
+    "@microsoft/powerbi-report-authoring-cli": "0.4.0",
+    "@microsoft/powerbi-desktop-bridge-cli": "1.0.0"
+  }
+}

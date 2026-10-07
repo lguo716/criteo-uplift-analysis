@@ -1,0 +1,40 @@
+{
+  "primary_outcome": "visit",
+  "secondary_outcome": "conversion",
+  "selection": {
+    "visit": {
+      "model": "s_learner",
+      "validation_qini": 0.004240624081934274,
+      "selection_set": "validation",
+      "criterion": "normalized Qini area",
+      "primary": true
+    },
+    "conversion": {
+      "model": "t_learner",
+      "validation_qini": 0.00025285323272892775,
+      "selection_set": "validation",
+      "criterion": "normalized Qini area",
+      "primary": false
+    }
+  },
+  "seed": 42,
+  "bootstrap_replicates": 500,
+  "budgets_prespecified": [
+    0.0,
+    0.05,
+    0.1,
+    0.2,
+    0.3,
+    0.5,
+    0.7,
+    1.0
+  ],
+  "default_budget": 0.2,
+  "propensity": "each evaluation split's global empirical treatment ratio, fixed across its Top-K points",
+  "gain_formula": "G(q) = sum_{top_q} Y*(T/p-(1-T)/(1-p))/N",
+  "auuc_formula": "integral_0^1 G(q) dq",
+  "qini_formula": "integral_0^1 [G(q)-q*G(1)] dq",
+  "random_strategy": "expected performance q*G(1), not a lucky single random draw",
+  "bootstrap": "exact multinomial treatment-stratified paired resampling; fixed model scores and Top-K memberships; does not include retraining uncertainty",
+  "source_context": "public, nonuniformly sampled benchmark; no reconstruction of original campaigns or real ROI"
+}

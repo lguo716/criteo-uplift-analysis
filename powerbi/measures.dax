@@ -1,0 +1,116 @@
+Current Outcome =
+SELECTEDVALUE(dim_outcome[outcome_label],"访问（默认）")
+
+Selected Budget =
+SELECTEDVALUE(dim_budget[budget_fraction],0.2)
+
+Sample N =
+VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], "visit") RETURN CALCULATE(MAX(experiment_summary[n]), experiment_summary[outcome] = Outcome)
+
+Treatment N =
+VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], "visit") RETURN CALCULATE(MAX(experiment_summary[n_treatment]), experiment_summary[outcome] = Outcome)
+
+Control N =
+VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], "visit") RETURN CALCULATE(MAX(experiment_summary[n_control]), experiment_summary[outcome] = Outcome)
+
+Treatment Rate =
+VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], "visit") RETURN CALCULATE(MAX(experiment_summary[rate_treatment]), experiment_summary[outcome] = Outcome)
+
+Control Rate =
+VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], "visit") RETURN CALCULATE(MAX(experiment_summary[rate_control]), experiment_summary[outcome] = Outcome)
+
+ATE =
+VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], "visit") RETURN CALCULATE(MAX(experiment_summary[ate]), experiment_summary[outcome] = Outcome)
+
+ATE Lower =
+VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], "visit") RETURN CALCULATE(MAX(experiment_summary[ci_lower]), experiment_summary[outcome] = Outcome)
+
+ATE Upper =
+VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], "visit") RETURN CALCULATE(MAX(experiment_summary[ci_upper]), experiment_summary[outcome] = Outcome)
+
+Relative Lift =
+VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], "visit") RETURN CALCULATE(MAX(experiment_summary[relative_lift]), experiment_summary[outcome] = Outcome)
+
+Group Rate =
+VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], "visit") RETURN CALCULATE(DIVIDE(SUM(experiment_groups[positive]),SUM(experiment_groups[n])), experiment_groups[outcome] = Outcome)
+
+Group N =
+VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], "visit") RETURN CALCULATE(MAX(experiment_groups[n]), experiment_groups[outcome] = Outcome)
+
+Group Positive =
+VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], "visit") RETURN CALCULATE(MAX(experiment_groups[positive]), experiment_groups[outcome] = Outcome)
+
+Group Lower =
+VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], "visit") RETURN CALCULATE(MAX(experiment_groups[ci_lower]), experiment_groups[outcome] = Outcome)
+
+Group Upper =
+VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], "visit") RETURN CALCULATE(MAX(experiment_groups[ci_upper]), experiment_groups[outcome] = Outcome)
+
+Balance Difference =
+MAX(feature_balance[difference])
+
+Selected Model =
+VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], "visit") RETURN CALCULATE(SELECTEDVALUE(selected_models[selected_model_label]), selected_models[outcome] = Outcome)
+
+Test Qini =
+VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], "visit") RETURN CALCULATE(CALCULATE(MAX(model_evaluation[qini]),model_evaluation[split]="test"), model_evaluation[outcome] = Outcome)
+
+Test AUUC =
+VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], "visit") RETURN CALCULATE(CALCULATE(MAX(model_evaluation[auuc]),model_evaluation[split]="test"), model_evaluation[outcome] = Outcome)
+
+Test Qini Lower =
+VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], "visit") RETURN CALCULATE(CALCULATE(MAX(model_evaluation[qini_ci_lower]),model_evaluation[split]="test"), model_evaluation[outcome] = Outcome)
+
+Test Qini Upper =
+VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], "visit") RETURN CALCULATE(CALCULATE(MAX(model_evaluation[qini_ci_upper]),model_evaluation[split]="test"), model_evaluation[outcome] = Outcome)
+
+Test Gain20 =
+VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], "visit") RETURN CALCULATE(CALCULATE(MAX(model_evaluation[incremental_per_10000_at_20]),model_evaluation[split]="test"), model_evaluation[outcome] = Outcome)
+
+Curve Increment =
+VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], "visit") RETURN CALCULATE(MAX(uplift_curves[gain])*10000, uplift_curves[outcome] = Outcome)
+
+Curve Random =
+VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], "visit") RETURN CALCULATE(MAX(uplift_curves[random_gain])*10000, uplift_curves[outcome] = Outcome)
+
+Decile Effect =
+VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], "visit") RETURN CALCULATE(MAX(decile_profiles[ipw_uplift]), decile_profiles[outcome] = Outcome)
+
+Decile N =
+VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], "visit") RETURN CALCULATE(MAX(decile_profiles[n]), decile_profiles[outcome] = Outcome)
+
+Strategy Increment =
+VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], "visit") RETURN CALCULATE(VAR Budget = [Selected Budget] RETURN CALCULATE(MAX(budget_strategies[incremental_per_10000]),budget_strategies[budget_fraction]=Budget), budget_strategies[outcome] = Outcome)
+
+Strategy Lower =
+VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], "visit") RETURN CALCULATE(VAR Budget = [Selected Budget] RETURN CALCULATE(MAX(budget_strategies[ci_lower_per_10000]),budget_strategies[budget_fraction]=Budget), budget_strategies[outcome] = Outcome)
+
+Strategy Upper =
+VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], "visit") RETURN CALCULATE(VAR Budget = [Selected Budget] RETURN CALCULATE(MAX(budget_strategies[ci_upper_per_10000]),budget_strategies[budget_fraction]=Budget), budget_strategies[outcome] = Outcome)
+
+Strategy vs Random =
+VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], "visit") RETURN CALCULATE(VAR Budget = [Selected Budget] RETURN CALCULATE(MAX(budget_strategies[vs_random_per_10000]),budget_strategies[budget_fraction]=Budget), budget_strategies[outcome] = Outcome)
+
+Strategy Efficiency =
+VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], "visit") RETURN CALCULATE(VAR Budget = [Selected Budget] RETURN CALCULATE(MAX(budget_strategies[incremental_per_1000_targeted]),budget_strategies[budget_fraction]=Budget), budget_strategies[outcome] = Outcome)
+
+Strategy Curve =
+VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], "visit") RETURN CALCULATE(MAX(budget_strategies[incremental_per_10000]), budget_strategies[outcome] = Outcome)
+
+Uplift Budget Gain =
+CALCULATE([Strategy Increment],REMOVEFILTERS(dim_strategy),budget_strategies[strategy]="uplift")
+
+Uplift Budget Advantage =
+CALCULATE([Strategy vs Random],REMOVEFILTERS(dim_strategy),budget_strategies[strategy]="uplift")
+
+Response Budget Gain =
+CALCULATE([Strategy Increment],REMOVEFILTERS(dim_strategy),budget_strategies[strategy]="response")
+
+Normalized Cost =
+[Selected Budget]*10000
+
+ATE Points =
+[ATE]*100
+
+ATE Interval =
+"[" & FORMAT([ATE Lower]*100,"0.0000") & ", " & FORMAT([ATE Upper]*100,"0.0000") & "]"

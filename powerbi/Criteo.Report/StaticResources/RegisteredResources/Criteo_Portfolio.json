@@ -1,0 +1,13 @@
+{
+  "name": "Criteo_Portfolio.json",
+  "dataColors": [
+    "#2563EB",
+    "#64748B",
+    "#D97706",
+    "#16A34A",
+    "#0D9488"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#0F172A",
+  "tableAccent": "#2563EB"
+}

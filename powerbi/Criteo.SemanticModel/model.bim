@@ -1,0 +1,2357 @@
+{
+  "compatibilityLevel": 1606,
+  "model": {
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"experiment_summary\",\"experiment_groups\",\"feature_balance\",\"model_evaluation\",\"uplift_curves\",\"budget_strategies\",\"decile_profiles\",\"selected_models\",\"dim_outcome\",\"dim_model\",\"dim_strategy\",\"dim_budget\",\"ProjectRoot\"]"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "zh-CN",
+    "cultures": [
+      {
+        "name": "zh-CN",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "budget_strategies.budget_fraction": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "budget_strategies",
+                    "ConceptualProperty": "budget_fraction"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "budget_fraction": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "decile_profiles.decile": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "decile_profiles",
+                    "ConceptualProperty": "decile"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "decile": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dim_budget.budget_label": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_budget",
+                    "ConceptualProperty": "budget_label"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "budget_label": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dim_model.model_label": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_model",
+                    "ConceptualProperty": "model_label"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "model_label": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "模型": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dim_outcome.outcome_label": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_outcome",
+                    "ConceptualProperty": "outcome_label"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "outcome_label": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dim_strategy.strategy_label": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_strategy",
+                    "ConceptualProperty": "strategy_label"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "strategy_label": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "策略": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "experiment_groups.group_label": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "experiment_groups",
+                    "ConceptualProperty": "group_label"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "group_label": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "实验分组": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "feature_balance.feature": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "feature_balance",
+                    "ConceptualProperty": "feature"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "feature": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.ate": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "ATE"
+                  }
+                },
+                "State": "Generated"
+              },
+              "metrics.ate_interval": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "ATE Interval"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "率差95%区间（百分点）": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.ate_points": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "ATE Points"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "绝对差（百分点）": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.balance_difference": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Balance Difference"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Balance Difference": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.control_rate": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Control Rate"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "对照组发生率": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.curve_increment": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Curve Increment"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Curve Increment": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.decile_effect": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Decile Effect"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Decile Effect": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.group_lower": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Group Lower"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "区间下限": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.group_n": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Group N"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "人数": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.group_positive": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Group Positive"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "结果发生人数": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.group_rate": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Group Rate"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Group Rate": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "发生率": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.group_upper": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Group Upper"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "区间上限": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.normalized_cost": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Normalized Cost"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "归一化触达成本": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.relative_lift": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Relative Lift"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "相对提升": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.response_budget_gain": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Response Budget Gain"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "响应排序增量 / 每万人": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.sample_n": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Sample N"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "样本人数": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.selected_model": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Selected Model"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "验证集选定的Uplift模型": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.strategy_curve": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Strategy Curve"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Strategy Curve": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.strategy_efficiency": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Strategy Efficiency"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "增量 / 千次触达": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.strategy_increment": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Strategy Increment"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "增量 / 每万人": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.strategy_lower": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Strategy Lower"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "区间下限": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.strategy_upper": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Strategy Upper"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "区间上限": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.test_qini": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Test Qini"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Qini": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "Test Qini": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.test_qini_lower": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Test Qini Lower"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "下限": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.test_qini_upper": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Test Qini Upper"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "上限": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.treatment_rate": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Treatment Rate"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "实验组发生率": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.uplift_budget_advantage": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Uplift Budget Advantage"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Uplift相对随机差": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "metrics.uplift_budget_gain": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Metrics",
+                    "ConceptualProperty": "Uplift Budget Gain"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Uplift增量 / 每万人": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "uplift_curves.budget_fraction": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "uplift_curves",
+                    "ConceptualProperty": "budget_fraction"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "budget_fraction": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Version": "2.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "expressions": [
+      {
+        "name": "ProjectRoot",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Text"
+          }
+        ],
+        "expression": "\"D:\\resume\\projects\\criteo-uplift-analysis\" meta [IsParameterQuery=true, Type=\"Text\", IsParameterQueryRequired=true]",
+        "kind": "m",
+        "lineageTag": "bcac869f-ae0d-4964-a4e0-59999dc9640a"
+      }
+    ],
+    "relationships": [
+      {
+        "name": "experiment_summary_outcome",
+        "fromColumn": "outcome",
+        "fromTable": "experiment_summary",
+        "toColumn": "outcome",
+        "toTable": "dim_outcome"
+      },
+      {
+        "name": "experiment_groups_outcome",
+        "fromColumn": "outcome",
+        "fromTable": "experiment_groups",
+        "toColumn": "outcome",
+        "toTable": "dim_outcome"
+      },
+      {
+        "name": "model_evaluation_outcome",
+        "fromColumn": "outcome",
+        "fromTable": "model_evaluation",
+        "toColumn": "outcome",
+        "toTable": "dim_outcome"
+      },
+      {
+        "name": "model_evaluation_model",
+        "fromColumn": "model",
+        "fromTable": "model_evaluation",
+        "toColumn": "model",
+        "toTable": "dim_model"
+      },
+      {
+        "name": "uplift_curves_outcome",
+        "fromColumn": "outcome",
+        "fromTable": "uplift_curves",
+        "toColumn": "outcome",
+        "toTable": "dim_outcome"
+      },
+      {
+        "name": "uplift_curves_model",
+        "fromColumn": "model",
+        "fromTable": "uplift_curves",
+        "toColumn": "model",
+        "toTable": "dim_model"
+      },
+      {
+        "name": "budget_strategies_outcome",
+        "fromColumn": "outcome",
+        "fromTable": "budget_strategies",
+        "toColumn": "outcome",
+        "toTable": "dim_outcome"
+      },
+      {
+        "name": "budget_strategies_strategy",
+        "fromColumn": "strategy",
+        "fromTable": "budget_strategies",
+        "toColumn": "strategy",
+        "toTable": "dim_strategy"
+      },
+      {
+        "name": "decile_profiles_outcome",
+        "fromColumn": "outcome",
+        "fromTable": "decile_profiles",
+        "toColumn": "outcome",
+        "toTable": "dim_outcome"
+      },
+      {
+        "name": "decile_profiles_model",
+        "fromColumn": "model",
+        "fromTable": "decile_profiles",
+        "toColumn": "model",
+        "toTable": "dim_model"
+      },
+      {
+        "name": "selected_models_outcome",
+        "fromColumn": "outcome",
+        "fromTable": "selected_models",
+        "toColumn": "outcome",
+        "toTable": "dim_outcome"
+      }
+    ],
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "experiment_summary",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "导航"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "outcome",
+            "dataType": "string",
+            "lineageTag": "0bf19814-76b6-4875-93f0-267dfb623858",
+            "sourceColumn": "outcome",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "outcome_label",
+            "dataType": "string",
+            "lineageTag": "a6df3e7d-f408-47cc-971c-5946c3f540cd",
+            "sourceColumn": "outcome_label",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "n",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "ee4e4f8d-8542-4470-adad-d19e3f919a0a",
+            "sourceColumn": "n",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "n_treatment",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "830e12de-c6c2-4e57-99be-c19db74e71e4",
+            "sourceColumn": "n_treatment",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "n_control",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "2a291ea0-c06f-4074-a754-6528a9bcee43",
+            "sourceColumn": "n_control",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "positive_treatment",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "527d82c1-9fcb-4ab1-b0b6-ade987bbc543",
+            "sourceColumn": "positive_treatment",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "positive_control",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "daae9e3e-9557-4afa-a86e-51e73a8695ad",
+            "sourceColumn": "positive_control",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "rate_treatment",
+            "dataType": "double",
+            "formatString": "0.0000%",
+            "lineageTag": "5e53aba1-3a81-4c60-a826-3f4e8a94e742",
+            "sourceColumn": "rate_treatment",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "rate_control",
+            "dataType": "double",
+            "formatString": "0.0000%",
+            "lineageTag": "f93d2f77-3335-4b90-8640-435bd72d02ad",
+            "sourceColumn": "rate_control",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ate",
+            "dataType": "double",
+            "formatString": "0.0000%",
+            "lineageTag": "5c072d83-7124-4e4b-835c-86b318fb5a05",
+            "sourceColumn": "ate",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "relative_lift",
+            "dataType": "double",
+            "formatString": "0.0000%",
+            "lineageTag": "d8f78223-0f96-4e9e-aee7-533e94327f38",
+            "sourceColumn": "relative_lift",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ci_lower",
+            "dataType": "double",
+            "formatString": "0.0000%",
+            "lineageTag": "8ec5d438-d71f-4029-9702-23ddec1ecd37",
+            "sourceColumn": "ci_lower",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ci_upper",
+            "dataType": "double",
+            "formatString": "0.0000%",
+            "lineageTag": "af3dbcca-5f7b-45a5-90b0-2632e6aeef8e",
+            "sourceColumn": "ci_upper",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "p_value",
+            "dataType": "double",
+            "formatString": "0.0000",
+            "lineageTag": "8e0b7b90-593d-4a3d-a047-3f65847ff8b9",
+            "sourceColumn": "p_value",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "incremental_per_10000",
+            "dataType": "double",
+            "formatString": "0.0000",
+            "lineageTag": "86b0c55a-0eb8-4d31-bbb4-e2c74642f890",
+            "sourceColumn": "incremental_per_10000",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "analysis_role",
+            "dataType": "string",
+            "lineageTag": "534f988b-2e49-44fc-bf4d-a2a4fc972a65",
+            "sourceColumn": "analysis_role",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "a7857de9-89b3-4f03-934e-c3d04ce49cde",
+        "partitions": [
+          {
+            "name": "experiment_summary",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(ProjectRoot & \"\\reports\\tables\\experiment_summary.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"outcome\", type text}, {\"outcome_label\", type text}, {\"n\", Int64.Type}, {\"n_treatment\", Int64.Type}, {\"n_control\", Int64.Type}, {\"positive_treatment\", Int64.Type}, {\"positive_control\", Int64.Type}, {\"rate_treatment\", type number}, {\"rate_control\", type number}, {\"ate\", type number}, {\"relative_lift\", type number}, {\"ci_lower\", type number}, {\"ci_upper\", type number}, {\"p_value\", type number}, {\"incremental_per_10000\", type number}, {\"analysis_role\", type text}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "experiment_groups",
+        "columns": [
+          {
+            "name": "outcome",
+            "dataType": "string",
+            "lineageTag": "f670a16e-3f8f-4505-840c-9cd3edcc1c73",
+            "sourceColumn": "outcome",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "outcome_label",
+            "dataType": "string",
+            "lineageTag": "9707fd85-f26e-441e-a374-3718c7faaf77",
+            "sourceColumn": "outcome_label",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "treatment",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "a6278fc9-8c65-4998-a382-212e5aae49aa",
+            "sourceColumn": "treatment",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "group_label",
+            "dataType": "string",
+            "lineageTag": "f1c33287-06aa-42a9-862b-07d3215963bb",
+            "sourceColumn": "group_label",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "n",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "8d5fcd56-f5f4-4b6d-83e5-8179837bbb89",
+            "sourceColumn": "n",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "positive",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "0b5f0a12-cad1-4688-9785-446a56ff4574",
+            "sourceColumn": "positive",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "rate",
+            "dataType": "double",
+            "formatString": "0.0000%",
+            "lineageTag": "47e2a264-caaa-4606-8ae6-a2ea7b740a46",
+            "sourceColumn": "rate",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ci_lower",
+            "dataType": "double",
+            "formatString": "0.0000%",
+            "lineageTag": "9a7f4db1-2145-4ecb-9cb7-9edeee40f08d",
+            "sourceColumn": "ci_lower",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ci_upper",
+            "dataType": "double",
+            "formatString": "0.0000%",
+            "lineageTag": "5f75da76-8d72-4562-9b22-5f1d5e0aac72",
+            "sourceColumn": "ci_upper",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "5b90bcd4-8dc0-4b91-b60c-6e5fc3c9e0ad",
+        "partitions": [
+          {
+            "name": "experiment_groups",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(ProjectRoot & \"\\reports\\tables\\experiment_groups.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"outcome\", type text}, {\"outcome_label\", type text}, {\"treatment\", Int64.Type}, {\"group_label\", type text}, {\"n\", Int64.Type}, {\"positive\", Int64.Type}, {\"rate\", type number}, {\"ci_lower\", type number}, {\"ci_upper\", type number}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "feature_balance",
+        "columns": [
+          {
+            "name": "feature",
+            "dataType": "string",
+            "lineageTag": "b937afcb-327e-437a-a20a-43c7df0a6307",
+            "sourceColumn": "feature",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "kind",
+            "dataType": "string",
+            "lineageTag": "83f534c4-0d5e-4a58-b324-130cb48d7fe9",
+            "sourceColumn": "kind",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "metric",
+            "dataType": "string",
+            "lineageTag": "1ee1eb31-9e9d-4974-b38d-e8016456282f",
+            "sourceColumn": "metric",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "difference",
+            "dataType": "double",
+            "formatString": "0.0000",
+            "lineageTag": "b90f90ab-2cab-4e76-b6b4-bb12305524c6",
+            "sourceColumn": "difference",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mean_treatment",
+            "dataType": "double",
+            "formatString": "0.0000",
+            "lineageTag": "ae1d7ded-c11d-477a-9771-2b60b03f85b4",
+            "sourceColumn": "mean_treatment",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mean_control",
+            "dataType": "double",
+            "formatString": "0.0000",
+            "lineageTag": "d1f9865f-0a45-4926-b425-eebced6c06cc",
+            "sourceColumn": "mean_control",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "reference_threshold",
+            "dataType": "double",
+            "formatString": "0.0000",
+            "lineageTag": "c8aec766-eee1-42d5-88cf-a2cb0b8f33ca",
+            "sourceColumn": "reference_threshold",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "balanced_descriptively",
+            "dataType": "boolean",
+            "lineageTag": "3ea5bad2-2d80-42fc-9f31-e8258ff37986",
+            "sourceColumn": "balanced_descriptively",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "1b5daebf-e95b-40f0-9c72-0e381fbe66ca",
+        "partitions": [
+          {
+            "name": "feature_balance",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(ProjectRoot & \"\\reports\\tables\\feature_balance.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"feature\", type text}, {\"kind\", type text}, {\"metric\", type text}, {\"difference\", type number}, {\"mean_treatment\", type number}, {\"mean_control\", type number}, {\"reference_threshold\", type number}, {\"balanced_descriptively\", type logical}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "model_evaluation",
+        "columns": [
+          {
+            "name": "outcome",
+            "dataType": "string",
+            "lineageTag": "a7d72bcc-581a-4952-be0e-273d4d190015",
+            "sourceColumn": "outcome",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "model",
+            "dataType": "string",
+            "lineageTag": "23e20e89-8f33-4600-85f8-fe8efeabb6b5",
+            "sourceColumn": "model",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "split",
+            "dataType": "string",
+            "lineageTag": "333a2bff-98f4-425c-80e5-cd0ceb30c501",
+            "sourceColumn": "split",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "n",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "586b86a8-079b-402c-bfd3-0fbee113c69a",
+            "sourceColumn": "n",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "auuc",
+            "dataType": "double",
+            "formatString": "0.0000",
+            "lineageTag": "0947229b-17ba-4b58-b076-50283fae6af2",
+            "sourceColumn": "auuc",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "qini",
+            "dataType": "double",
+            "formatString": "0.0000",
+            "lineageTag": "63ec63da-8645-4094-87e7-0353260a38c2",
+            "sourceColumn": "qini",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "gain_at_20",
+            "dataType": "double",
+            "formatString": "0.0000",
+            "lineageTag": "9c78fc34-c7fc-494c-b258-461cf5ec9454",
+            "sourceColumn": "gain_at_20",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "incremental_per_10000_at_20",
+            "dataType": "double",
+            "formatString": "0.0000",
+            "lineageTag": "ec61da9e-6471-4902-ab26-1fb8a52140cd",
+            "sourceColumn": "incremental_per_10000_at_20",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "selected_on_validation",
+            "dataType": "boolean",
+            "lineageTag": "b83cb189-75c2-4ee8-8953-00b6de9bf0d6",
+            "sourceColumn": "selected_on_validation",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "response_roc_auc",
+            "dataType": "double",
+            "formatString": "0.0000",
+            "lineageTag": "63dd5687-b1a8-4e0c-acaa-dd693fd4bae4",
+            "sourceColumn": "response_roc_auc",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "response_pr_auc",
+            "dataType": "double",
+            "formatString": "0.0000",
+            "lineageTag": "9e70f925-0800-4758-813d-bc3f86a5e620",
+            "sourceColumn": "response_pr_auc",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "qini_ci_lower",
+            "dataType": "double",
+            "formatString": "0.0000",
+            "lineageTag": "a158df6c-c43b-4bc8-a0f6-92f84493bef7",
+            "sourceColumn": "qini_ci_lower",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "qini_ci_upper",
+            "dataType": "double",
+            "formatString": "0.0000",
+            "lineageTag": "0665e024-e9a9-4c8e-b129-baf98c4ca709",
+            "sourceColumn": "qini_ci_upper",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "b9b7266e-7591-404b-94ae-eac913fc50f6",
+        "partitions": [
+          {
+            "name": "model_evaluation",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(ProjectRoot & \"\\reports\\tables\\model_evaluation.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"outcome\", type text}, {\"model\", type text}, {\"split\", type text}, {\"n\", Int64.Type}, {\"auuc\", type number}, {\"qini\", type number}, {\"gain_at_20\", type number}, {\"incremental_per_10000_at_20\", type number}, {\"selected_on_validation\", type logical}, {\"response_roc_auc\", type number}, {\"response_pr_auc\", type number}, {\"qini_ci_lower\", type number}, {\"qini_ci_upper\", type number}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "uplift_curves",
+        "columns": [
+          {
+            "name": "outcome",
+            "dataType": "string",
+            "lineageTag": "1a8cc815-6ae1-4877-88e8-7ea5869fc90b",
+            "sourceColumn": "outcome",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "model",
+            "dataType": "string",
+            "lineageTag": "a537f1e7-1014-483d-85cc-f9afc33249bf",
+            "sourceColumn": "model",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "split",
+            "dataType": "string",
+            "lineageTag": "44c0ec2d-c3ca-40e1-b73e-86ba222fa0f6",
+            "sourceColumn": "split",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "n",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "bac0397c-ff27-4553-b5a3-9aa50819dc11",
+            "sourceColumn": "n",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "budget_fraction",
+            "dataType": "double",
+            "formatString": "0.0000%",
+            "lineageTag": "20331eeb-b952-49a6-a32c-582134d3cf63",
+            "sourceColumn": "budget_fraction",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "targeted_n",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "15772449-0cbc-4875-9d59-824303b48469",
+            "sourceColumn": "targeted_n",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "gain",
+            "dataType": "double",
+            "formatString": "0.0000",
+            "lineageTag": "3eaaaf72-4ee9-4134-b42d-ac8ac1e40e93",
+            "sourceColumn": "gain",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "random_gain",
+            "dataType": "double",
+            "formatString": "0.0000",
+            "lineageTag": "4f9a2ec4-f4d1-4a14-9d98-ca510963273a",
+            "sourceColumn": "random_gain",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "gain_vs_random",
+            "dataType": "double",
+            "formatString": "0.0000",
+            "lineageTag": "3871d54a-866e-4134-8910-f66086957840",
+            "sourceColumn": "gain_vs_random",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ci_lower",
+            "dataType": "double",
+            "formatString": "0.0000%",
+            "lineageTag": "850cb821-a475-44cb-bfde-9f03f0521a3f",
+            "sourceColumn": "ci_lower",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ci_upper",
+            "dataType": "double",
+            "formatString": "0.0000%",
+            "lineageTag": "dead89f8-0109-467f-8ad6-74177ec324dc",
+            "sourceColumn": "ci_upper",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "vs_random_ci_lower",
+            "dataType": "double",
+            "formatString": "0.0000",
+            "lineageTag": "6dc972c9-584c-4752-b979-e3023dd866ce",
+            "sourceColumn": "vs_random_ci_lower",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "vs_random_ci_upper",
+            "dataType": "double",
+            "formatString": "0.0000",
+            "lineageTag": "372a144e-f4e0-4fd7-8fb7-c0c033de060f",
+            "sourceColumn": "vs_random_ci_upper",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "vs_response_ci_lower",
+            "dataType": "double",
+            "formatString": "0.0000",
+            "lineageTag": "44d74c3d-ed19-4620-9c8b-6bc9aabe6323",
+            "sourceColumn": "vs_response_ci_lower",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "vs_response_ci_upper",
+            "dataType": "double",
+            "formatString": "0.0000",
+            "lineageTag": "655e6705-2a09-482b-8b4b-8444e3adfbad",
+            "sourceColumn": "vs_response_ci_upper",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "selected_model",
+            "dataType": "boolean",
+            "lineageTag": "611fe0b3-4c05-4fc0-a698-60058ca922b6",
+            "sourceColumn": "selected_model",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "7d5bfa26-23d7-4d86-93df-2e681e420ee4",
+        "partitions": [
+          {
+            "name": "uplift_curves",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(ProjectRoot & \"\\reports\\tables\\uplift_curves.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"outcome\", type text}, {\"model\", type text}, {\"split\", type text}, {\"n\", Int64.Type}, {\"budget_fraction\", type number}, {\"targeted_n\", Int64.Type}, {\"gain\", type number}, {\"random_gain\", type number}, {\"gain_vs_random\", type number}, {\"ci_lower\", type number}, {\"ci_upper\", type number}, {\"vs_random_ci_lower\", type number}, {\"vs_random_ci_upper\", type number}, {\"vs_response_ci_lower\", type number}, {\"vs_response_ci_upper\", type number}, {\"selected_model\", type logical}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "budget_strategies",
+        "columns": [
+          {
+            "name": "outcome",
+            "dataType": "string",
+            "lineageTag": "b89fa713-ddfd-4985-9235-918c14a0bb58",
+            "sourceColumn": "outcome",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "strategy",
+            "dataType": "string",
+            "lineageTag": "c30a062e-528f-40bf-9e43-89e262b66a85",
+            "sourceColumn": "strategy",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "model",
+            "dataType": "string",
+            "lineageTag": "3f0443fe-20db-4120-bbe4-09553dd31324",
+            "sourceColumn": "model",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "budget_fraction",
+            "dataType": "double",
+            "formatString": "0.0000%",
+            "lineageTag": "218143b7-c6d9-4ee5-946c-3467ff8cda84",
+            "sourceColumn": "budget_fraction",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "evaluation_n",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "1a0e8b93-302f-4498-a11a-b884b5777ba7",
+            "sourceColumn": "evaluation_n",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "targeted_n",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "e32a78a7-d7fb-440c-a49b-53f9988e29d0",
+            "sourceColumn": "targeted_n",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "gain",
+            "dataType": "double",
+            "formatString": "0.0000",
+            "lineageTag": "4bed77b2-4214-4448-91ba-d68bdb784ba7",
+            "sourceColumn": "gain",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "incremental_per_10000",
+            "dataType": "double",
+            "formatString": "0.0000",
+            "lineageTag": "cb3a9669-61df-4886-a3f7-fe98c1d2b771",
+            "sourceColumn": "incremental_per_10000",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ci_lower_per_10000",
+            "dataType": "double",
+            "formatString": "0.0000",
+            "lineageTag": "a9bc300e-0fdb-45f4-adce-b13fb881017c",
+            "sourceColumn": "ci_lower_per_10000",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ci_upper_per_10000",
+            "dataType": "double",
+            "formatString": "0.0000",
+            "lineageTag": "ac373862-e8b6-4fad-9653-ad7d0136fa6f",
+            "sourceColumn": "ci_upper_per_10000",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "vs_random_per_10000",
+            "dataType": "double",
+            "formatString": "0.0000",
+            "lineageTag": "ccec8401-2fe4-42f4-a822-f1cdf1480c97",
+            "sourceColumn": "vs_random_per_10000",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "vs_random_ci_lower_per_10000",
+            "dataType": "double",
+            "formatString": "0.0000",
+            "lineageTag": "115c88b2-deef-40b9-9b14-a9cec79a7ab5",
+            "sourceColumn": "vs_random_ci_lower_per_10000",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "vs_random_ci_upper_per_10000",
+            "dataType": "double",
+            "formatString": "0.0000",
+            "lineageTag": "7d1d1710-8d65-4f0e-9ca4-89b081acc80c",
+            "sourceColumn": "vs_random_ci_upper_per_10000",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "incremental_per_1000_targeted",
+            "dataType": "double",
+            "formatString": "0.0000",
+            "lineageTag": "242a18b6-9216-4f55-a4e7-2497aa6829f7",
+            "sourceColumn": "incremental_per_1000_targeted",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "normalized_cost_per_10000",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "dd44e3ec-cd05-4444-9193-16aca54d3643",
+            "sourceColumn": "normalized_cost_per_10000",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "default_budget",
+            "dataType": "boolean",
+            "lineageTag": "bee108ce-c102-4e34-b985-5ee5ea998041",
+            "sourceColumn": "default_budget",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "cef3b19f-c9e7-4583-a7ad-a4ec1fdec564",
+        "partitions": [
+          {
+            "name": "budget_strategies",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(ProjectRoot & \"\\reports\\tables\\budget_strategies.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"outcome\", type text}, {\"strategy\", type text}, {\"model\", type text}, {\"budget_fraction\", type number}, {\"evaluation_n\", Int64.Type}, {\"targeted_n\", Int64.Type}, {\"gain\", type number}, {\"incremental_per_10000\", type number}, {\"ci_lower_per_10000\", type number}, {\"ci_upper_per_10000\", type number}, {\"vs_random_per_10000\", type number}, {\"vs_random_ci_lower_per_10000\", type number}, {\"vs_random_ci_upper_per_10000\", type number}, {\"incremental_per_1000_targeted\", type number}, {\"normalized_cost_per_10000\", Int64.Type}, {\"default_budget\", type logical}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "decile_profiles",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "导航"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "outcome",
+            "dataType": "string",
+            "lineageTag": "1c3100ce-7961-4cc9-b3b7-83b346ee2688",
+            "sourceColumn": "outcome",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "model",
+            "dataType": "string",
+            "lineageTag": "1dafc857-3a46-4415-a8e0-3f063b9fcd4d",
+            "sourceColumn": "model",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "decile",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "31d8b8c5-1aea-4e2d-970a-3ff585fd9a1f",
+            "sourceColumn": "decile",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "n",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "42a633fa-ab24-47c2-924c-52db1c56306d",
+            "sourceColumn": "n",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "n_treatment",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "4f3d62c1-82ad-4877-8552-aa3a13e41d0a",
+            "sourceColumn": "n_treatment",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "n_control",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "201ef36c-5b50-4cfc-95b1-c7acaec25807",
+            "sourceColumn": "n_control",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "positive_treatment",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "631605cd-fa64-48d7-84c3-917eda832dcc",
+            "sourceColumn": "positive_treatment",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "positive_control",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "d1ee492b-2201-48d4-87f0-c55dc693d534",
+            "sourceColumn": "positive_control",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "rate_treatment",
+            "dataType": "double",
+            "formatString": "0.0000%",
+            "lineageTag": "b9be976e-ed1d-49ef-8a15-d2cffdd4ec28",
+            "sourceColumn": "rate_treatment",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "rate_control",
+            "dataType": "double",
+            "formatString": "0.0000%",
+            "lineageTag": "02db9cd6-ca94-45f2-bf3f-deee588d96a2",
+            "sourceColumn": "rate_control",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "observed_rate_difference",
+            "dataType": "double",
+            "formatString": "0.0000",
+            "lineageTag": "3672709b-be46-478a-8fab-cbe839d090d1",
+            "sourceColumn": "observed_rate_difference",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ipw_uplift",
+            "dataType": "double",
+            "formatString": "0.0000",
+            "lineageTag": "11b678d0-8a59-4072-94f0-e054812e7ab9",
+            "sourceColumn": "ipw_uplift",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mean_predicted_score",
+            "dataType": "double",
+            "formatString": "0.0000",
+            "lineageTag": "0c0049c9-243b-4fcb-b379-bcdc31f9a251",
+            "sourceColumn": "mean_predicted_score",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "low_outcome_support",
+            "dataType": "boolean",
+            "lineageTag": "ae3b551f-2b5a-43bc-8760-de9e9600b1f7",
+            "sourceColumn": "low_outcome_support",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "selected_model",
+            "dataType": "boolean",
+            "lineageTag": "d0f776fb-052c-4529-97b6-6a69bbefba1d",
+            "sourceColumn": "selected_model",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "21d456d9-c320-4347-aca5-1c563ed78fd9",
+        "partitions": [
+          {
+            "name": "decile_profiles",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(ProjectRoot & \"\\reports\\tables\\decile_profiles.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"outcome\", type text}, {\"model\", type text}, {\"decile\", Int64.Type}, {\"n\", Int64.Type}, {\"n_treatment\", Int64.Type}, {\"n_control\", Int64.Type}, {\"positive_treatment\", Int64.Type}, {\"positive_control\", Int64.Type}, {\"rate_treatment\", type number}, {\"rate_control\", type number}, {\"observed_rate_difference\", type number}, {\"ipw_uplift\", type number}, {\"mean_predicted_score\", type number}, {\"low_outcome_support\", type logical}, {\"selected_model\", type logical}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "selected_models",
+        "columns": [
+          {
+            "name": "outcome",
+            "dataType": "string",
+            "lineageTag": "b680cc7d-9676-4df2-84b5-6ac83433dde3",
+            "sourceColumn": "outcome",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "selected_model",
+            "dataType": "string",
+            "lineageTag": "21788d04-bff8-415f-8e84-6090b0972b9f",
+            "sourceColumn": "selected_model",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "selected_model_label",
+            "dataType": "string",
+            "lineageTag": "a56c1e3e-0ae1-4919-9349-c63d3e2aca11",
+            "sourceColumn": "selected_model_label",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "criterion",
+            "dataType": "string",
+            "lineageTag": "9376e737-5d27-43b9-aa3c-6e72fb0c721b",
+            "sourceColumn": "criterion",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "2092243f-7fe0-4431-abe4-b09320c3045f",
+        "partitions": [
+          {
+            "name": "selected_models",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(ProjectRoot & \"\\reports\\tables\\selected_models.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"outcome\", type text}, {\"selected_model\", type text}, {\"selected_model_label\", type text}, {\"criterion\", type text}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_outcome",
+        "columns": [
+          {
+            "name": "outcome",
+            "dataType": "string",
+            "isKey": true,
+            "lineageTag": "519d74a1-d4d9-400f-b5ca-264890480e84",
+            "sourceColumn": "outcome",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "outcome_label",
+            "dataType": "string",
+            "lineageTag": "ecf58c1f-150f-4b4d-9fc0-5cc95f721271",
+            "sourceColumn": "outcome_label",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "role",
+            "dataType": "string",
+            "lineageTag": "16f4e1d5-24b2-47d6-92f3-3cd90c24a4a3",
+            "sourceColumn": "role",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "bb0c524d-d01f-49ce-adfd-814d4dddd15b",
+        "partitions": [
+          {
+            "name": "dim_outcome",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(ProjectRoot & \"\\reports\\tables\\dim_outcome.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"outcome\", type text}, {\"outcome_label\", type text}, {\"role\", type text}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_model",
+        "columns": [
+          {
+            "name": "model",
+            "dataType": "string",
+            "isKey": true,
+            "lineageTag": "ea02e91e-10e7-4d9d-99a0-4770926679d6",
+            "sourceColumn": "model",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "model_label",
+            "dataType": "string",
+            "lineageTag": "deaaa2a1-822c-4d00-b25a-875a7d60d08b",
+            "sourceColumn": "model_label",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "bd892c16-a596-43af-b45d-030a47b3e1c5",
+        "partitions": [
+          {
+            "name": "dim_model",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(ProjectRoot & \"\\reports\\tables\\dim_model.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"model\", type text}, {\"model_label\", type text}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_strategy",
+        "columns": [
+          {
+            "name": "strategy",
+            "dataType": "string",
+            "isKey": true,
+            "lineageTag": "6fd0511a-9e64-4479-b26c-cb7ec92cd294",
+            "sourceColumn": "strategy",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "strategy_label",
+            "dataType": "string",
+            "lineageTag": "e3877a3e-ff9a-4666-8538-b220d2db5bea",
+            "sourceColumn": "strategy_label",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "9e5367a3-6b5a-4046-86e4-a0aee98ccb66",
+        "partitions": [
+          {
+            "name": "dim_strategy",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(ProjectRoot & \"\\reports\\tables\\dim_strategy.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"strategy\", type text}, {\"strategy_label\", type text}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_budget",
+        "columns": [
+          {
+            "name": "budget_fraction",
+            "dataType": "double",
+            "formatString": "0.0000%",
+            "lineageTag": "b7387df5-e5a1-4d5f-a504-bf0d3b17541a",
+            "sourceColumn": "budget_fraction",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "budget_label",
+            "dataType": "string",
+            "lineageTag": "d48e7369-ec42-4e3c-9a46-b2f50fb4d7ac",
+            "sortByColumn": "budget_fraction",
+            "sourceColumn": "budget_label",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "bcba3e84-0d65-49f0-9773-5ff3b27fb61e",
+        "partitions": [
+          {
+            "name": "dim_budget",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(ProjectRoot & \"\\reports\\tables\\dim_budget.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"budget_fraction\", type number}, {\"budget_label\", type text}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Metrics",
+        "columns": [
+          {
+            "name": "Placeholder",
+            "dataType": "string",
+            "isHidden": true,
+            "isNameInferred": false,
+            "lineageTag": "86cdb9b9-6b2d-4ab0-9a43-56eac4e356b3",
+            "sourceColumn": "[Placeholder]",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "1e66593e-c032-4bd3-8f10-edfe36fd2b2c",
+        "measures": [
+          {
+            "name": "Current Outcome",
+            "displayFolder": "增量评估",
+            "expression": "SELECTEDVALUE(dim_outcome[outcome_label],\"访问（默认）\")",
+            "lineageTag": "d7a6fef6-4d12-44af-8712-ab40d43e2b26"
+          },
+          {
+            "name": "Selected Budget",
+            "displayFolder": "增量评估",
+            "expression": "SELECTEDVALUE(dim_budget[budget_fraction],0.2)",
+            "formatString": "0%",
+            "lineageTag": "b8d8ec5c-cf3b-4077-83da-82245f3257fe"
+          },
+          {
+            "name": "Sample N",
+            "displayFolder": "增量评估",
+            "expression": "VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], \"visit\") RETURN CALCULATE(MAX(experiment_summary[n]), experiment_summary[outcome] = Outcome)",
+            "formatString": "#,0",
+            "lineageTag": "9dd9ba20-0027-440a-a3fe-e73a698049ac"
+          },
+          {
+            "name": "Treatment N",
+            "displayFolder": "增量评估",
+            "expression": "VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], \"visit\") RETURN CALCULATE(MAX(experiment_summary[n_treatment]), experiment_summary[outcome] = Outcome)",
+            "formatString": "#,0",
+            "lineageTag": "66f0b683-8580-4bb5-87d4-b8e19d6a9e2c"
+          },
+          {
+            "name": "Control N",
+            "displayFolder": "增量评估",
+            "expression": "VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], \"visit\") RETURN CALCULATE(MAX(experiment_summary[n_control]), experiment_summary[outcome] = Outcome)",
+            "formatString": "#,0",
+            "lineageTag": "35e95fca-ae60-482f-9ecd-9da62f982570"
+          },
+          {
+            "name": "Treatment Rate",
+            "displayFolder": "增量评估",
+            "expression": "VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], \"visit\") RETURN CALCULATE(MAX(experiment_summary[rate_treatment]), experiment_summary[outcome] = Outcome)",
+            "formatString": "0.000%",
+            "lineageTag": "2c9061eb-ae96-49f8-8caf-b08535294152"
+          },
+          {
+            "name": "Control Rate",
+            "displayFolder": "增量评估",
+            "expression": "VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], \"visit\") RETURN CALCULATE(MAX(experiment_summary[rate_control]), experiment_summary[outcome] = Outcome)",
+            "formatString": "0.000%",
+            "lineageTag": "2a03b725-2f03-401b-beed-3b069f05b2c1"
+          },
+          {
+            "name": "ATE",
+            "displayFolder": "增量评估",
+            "expression": "VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], \"visit\") RETURN CALCULATE(MAX(experiment_summary[ate]), experiment_summary[outcome] = Outcome)",
+            "formatString": "0.0000%",
+            "lineageTag": "e269e973-3930-47ad-b836-e062afb953f4"
+          },
+          {
+            "name": "ATE Lower",
+            "displayFolder": "增量评估",
+            "expression": "VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], \"visit\") RETURN CALCULATE(MAX(experiment_summary[ci_lower]), experiment_summary[outcome] = Outcome)",
+            "formatString": "0.0000%",
+            "lineageTag": "51b2a14d-986d-423d-a0be-2b2662fb7561"
+          },
+          {
+            "name": "ATE Upper",
+            "displayFolder": "增量评估",
+            "expression": "VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], \"visit\") RETURN CALCULATE(MAX(experiment_summary[ci_upper]), experiment_summary[outcome] = Outcome)",
+            "formatString": "0.0000%",
+            "lineageTag": "a21dd8d6-093a-44ea-932f-3f9631112181"
+          },
+          {
+            "name": "Relative Lift",
+            "displayFolder": "增量评估",
+            "expression": "VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], \"visit\") RETURN CALCULATE(MAX(experiment_summary[relative_lift]), experiment_summary[outcome] = Outcome)",
+            "formatString": "0.00%",
+            "lineageTag": "fb56ae7f-8c17-4a97-b5f8-2e72438bd0a7"
+          },
+          {
+            "name": "Group Rate",
+            "displayFolder": "增量评估",
+            "expression": "VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], \"visit\") RETURN CALCULATE(DIVIDE(SUM(experiment_groups[positive]),SUM(experiment_groups[n])), experiment_groups[outcome] = Outcome)",
+            "formatString": "0.000%",
+            "lineageTag": "8d74ea4f-c3f3-46bd-9c4c-087863442ccf"
+          },
+          {
+            "name": "Group N",
+            "displayFolder": "增量评估",
+            "expression": "VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], \"visit\") RETURN CALCULATE(MAX(experiment_groups[n]), experiment_groups[outcome] = Outcome)",
+            "formatString": "#,0",
+            "lineageTag": "6a54f72e-9212-4caf-ad4e-98a6b413e9ec"
+          },
+          {
+            "name": "Group Positive",
+            "displayFolder": "增量评估",
+            "expression": "VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], \"visit\") RETURN CALCULATE(MAX(experiment_groups[positive]), experiment_groups[outcome] = Outcome)",
+            "formatString": "#,0",
+            "lineageTag": "aa4f7fde-f3f2-44df-9c2e-a15000fcc8f0"
+          },
+          {
+            "name": "Group Lower",
+            "displayFolder": "增量评估",
+            "expression": "VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], \"visit\") RETURN CALCULATE(MAX(experiment_groups[ci_lower]), experiment_groups[outcome] = Outcome)",
+            "formatString": "0.000%",
+            "lineageTag": "a90d4405-d98c-4326-8733-6f15e9c67fe2"
+          },
+          {
+            "name": "Group Upper",
+            "displayFolder": "增量评估",
+            "expression": "VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], \"visit\") RETURN CALCULATE(MAX(experiment_groups[ci_upper]), experiment_groups[outcome] = Outcome)",
+            "formatString": "0.000%",
+            "lineageTag": "7521db5a-f990-4cd3-b810-447481ad899c"
+          },
+          {
+            "name": "Balance Difference",
+            "displayFolder": "增量评估",
+            "expression": "MAX(feature_balance[difference])",
+            "formatString": "0.0000",
+            "lineageTag": "29bb8847-8f6d-4c25-8f7a-7f9a54456f41"
+          },
+          {
+            "name": "Selected Model",
+            "displayFolder": "增量评估",
+            "expression": "VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], \"visit\") RETURN CALCULATE(SELECTEDVALUE(selected_models[selected_model_label]), selected_models[outcome] = Outcome)",
+            "lineageTag": "99f91774-1774-488c-9a50-29905abb6e8b"
+          },
+          {
+            "name": "Test Qini",
+            "displayFolder": "增量评估",
+            "expression": "VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], \"visit\") RETURN CALCULATE(CALCULATE(MAX(model_evaluation[qini]),model_evaluation[split]=\"test\"), model_evaluation[outcome] = Outcome)",
+            "formatString": "0.000000",
+            "lineageTag": "669e49c9-be28-46d0-a9e2-569a6313a60a"
+          },
+          {
+            "name": "Test AUUC",
+            "displayFolder": "增量评估",
+            "expression": "VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], \"visit\") RETURN CALCULATE(CALCULATE(MAX(model_evaluation[auuc]),model_evaluation[split]=\"test\"), model_evaluation[outcome] = Outcome)",
+            "formatString": "0.000000",
+            "lineageTag": "7a3ed02e-2a28-4cf9-abbd-45f4d15e12c9"
+          },
+          {
+            "name": "Test Qini Lower",
+            "displayFolder": "增量评估",
+            "expression": "VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], \"visit\") RETURN CALCULATE(CALCULATE(MAX(model_evaluation[qini_ci_lower]),model_evaluation[split]=\"test\"), model_evaluation[outcome] = Outcome)",
+            "formatString": "0.000000",
+            "lineageTag": "31b7ecc1-9800-4b09-990d-472233e44d1e"
+          },
+          {
+            "name": "Test Qini Upper",
+            "displayFolder": "增量评估",
+            "expression": "VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], \"visit\") RETURN CALCULATE(CALCULATE(MAX(model_evaluation[qini_ci_upper]),model_evaluation[split]=\"test\"), model_evaluation[outcome] = Outcome)",
+            "formatString": "0.000000",
+            "lineageTag": "011f9ccd-af34-4a14-befd-d423bd1f46e5"
+          },
+          {
+            "name": "Test Gain20",
+            "displayFolder": "增量评估",
+            "expression": "VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], \"visit\") RETURN CALCULATE(CALCULATE(MAX(model_evaluation[incremental_per_10000_at_20]),model_evaluation[split]=\"test\"), model_evaluation[outcome] = Outcome)",
+            "formatString": "0.00",
+            "lineageTag": "9c7949c7-b35e-4752-a105-99d84c6d7471"
+          },
+          {
+            "name": "Curve Increment",
+            "displayFolder": "增量评估",
+            "expression": "VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], \"visit\") RETURN CALCULATE(MAX(uplift_curves[gain])*10000, uplift_curves[outcome] = Outcome)",
+            "formatString": "#,0.00",
+            "lineageTag": "cbc06f1a-fbdd-4fef-9835-afa5c469adbb"
+          },
+          {
+            "name": "Curve Random",
+            "displayFolder": "增量评估",
+            "expression": "VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], \"visit\") RETURN CALCULATE(MAX(uplift_curves[random_gain])*10000, uplift_curves[outcome] = Outcome)",
+            "formatString": "#,0.00",
+            "lineageTag": "ca22d6dc-9fa9-4f72-89bf-c60a35600390"
+          },
+          {
+            "name": "Decile Effect",
+            "displayFolder": "增量评估",
+            "expression": "VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], \"visit\") RETURN CALCULATE(MAX(decile_profiles[ipw_uplift]), decile_profiles[outcome] = Outcome)",
+            "formatString": "0.000%",
+            "lineageTag": "56796511-d594-4625-8992-10d1b392298d"
+          },
+          {
+            "name": "Decile N",
+            "displayFolder": "增量评估",
+            "expression": "VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], \"visit\") RETURN CALCULATE(MAX(decile_profiles[n]), decile_profiles[outcome] = Outcome)",
+            "formatString": "#,0",
+            "lineageTag": "93bdf381-4b0c-4b50-a462-9b1ae4139fe0"
+          },
+          {
+            "name": "Strategy Increment",
+            "displayFolder": "增量评估",
+            "expression": "VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], \"visit\") RETURN CALCULATE(VAR Budget = [Selected Budget] RETURN CALCULATE(MAX(budget_strategies[incremental_per_10000]),budget_strategies[budget_fraction]=Budget), budget_strategies[outcome] = Outcome)",
+            "formatString": "#,0.00",
+            "lineageTag": "64e5d9a4-6617-49ef-ba1b-04eab1b449d3"
+          },
+          {
+            "name": "Strategy Lower",
+            "displayFolder": "增量评估",
+            "expression": "VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], \"visit\") RETURN CALCULATE(VAR Budget = [Selected Budget] RETURN CALCULATE(MAX(budget_strategies[ci_lower_per_10000]),budget_strategies[budget_fraction]=Budget), budget_strategies[outcome] = Outcome)",
+            "formatString": "#,0.00",
+            "lineageTag": "dcd0d33f-48d1-4f16-82cc-bb35b49e301b"
+          },
+          {
+            "name": "Strategy Upper",
+            "displayFolder": "增量评估",
+            "expression": "VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], \"visit\") RETURN CALCULATE(VAR Budget = [Selected Budget] RETURN CALCULATE(MAX(budget_strategies[ci_upper_per_10000]),budget_strategies[budget_fraction]=Budget), budget_strategies[outcome] = Outcome)",
+            "formatString": "#,0.00",
+            "lineageTag": "90839368-39a0-4c52-84ef-606e9e0f9b20"
+          },
+          {
+            "name": "Strategy vs Random",
+            "displayFolder": "增量评估",
+            "expression": "VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], \"visit\") RETURN CALCULATE(VAR Budget = [Selected Budget] RETURN CALCULATE(MAX(budget_strategies[vs_random_per_10000]),budget_strategies[budget_fraction]=Budget), budget_strategies[outcome] = Outcome)",
+            "formatString": "#,0.00",
+            "lineageTag": "469e6365-4503-4f63-b698-0e5eeb7c198b"
+          },
+          {
+            "name": "Strategy Efficiency",
+            "displayFolder": "增量评估",
+            "expression": "VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], \"visit\") RETURN CALCULATE(VAR Budget = [Selected Budget] RETURN CALCULATE(MAX(budget_strategies[incremental_per_1000_targeted]),budget_strategies[budget_fraction]=Budget), budget_strategies[outcome] = Outcome)",
+            "formatString": "#,0.00",
+            "lineageTag": "a4720641-47c8-400a-b93a-819096d0280e"
+          },
+          {
+            "name": "Strategy Curve",
+            "displayFolder": "增量评估",
+            "expression": "VAR Outcome = SELECTEDVALUE(dim_outcome[outcome], \"visit\") RETURN CALCULATE(MAX(budget_strategies[incremental_per_10000]), budget_strategies[outcome] = Outcome)",
+            "formatString": "#,0.00",
+            "lineageTag": "d367ec5d-ae99-45a4-b6fe-c06bcd9dae1f"
+          },
+          {
+            "name": "Uplift Budget Gain",
+            "displayFolder": "增量评估",
+            "expression": "CALCULATE([Strategy Increment],REMOVEFILTERS(dim_strategy),budget_strategies[strategy]=\"uplift\")",
+            "formatString": "#,0.00",
+            "lineageTag": "efedd4b7-c6c1-489c-82ef-92e04ee29558"
+          },
+          {
+            "name": "Uplift Budget Advantage",
+            "displayFolder": "增量评估",
+            "expression": "CALCULATE([Strategy vs Random],REMOVEFILTERS(dim_strategy),budget_strategies[strategy]=\"uplift\")",
+            "formatString": "#,0.00",
+            "lineageTag": "5dadbd24-cebc-4bc8-91c3-451f1959bc76"
+          },
+          {
+            "name": "Response Budget Gain",
+            "displayFolder": "增量评估",
+            "expression": "CALCULATE([Strategy Increment],REMOVEFILTERS(dim_strategy),budget_strategies[strategy]=\"response\")",
+            "formatString": "#,0.00",
+            "lineageTag": "b9026639-2c06-4d61-869c-c9cd7a7cbf1a"
+          },
+          {
+            "name": "Normalized Cost",
+            "displayFolder": "增量评估",
+            "expression": "[Selected Budget]*10000",
+            "formatString": "#,0",
+            "lineageTag": "1cc5e516-e360-4a8f-962f-b7e1b4272aca"
+          },
+          {
+            "name": "ATE Points",
+            "displayFolder": "增量评估",
+            "expression": "[ATE]*100",
+            "formatString": "0.0000",
+            "lineageTag": "0381b5dc-4ce1-4cd5-b33b-90658b5ac95c"
+          },
+          {
+            "name": "ATE Interval",
+            "displayFolder": "增量评估",
+            "expression": "\"[\" & FORMAT([ATE Lower]*100,\"0.0000\") & \", \" & FORMAT([ATE Upper]*100,\"0.0000\") & \"]\"",
+            "lineageTag": "b2b22477-8ebe-43b2-a322-4235c598e170"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Metrics",
+            "mode": "import",
+            "source": {
+              "expression": "DATATABLE(\"Placeholder\",STRING,{{\"\"}})",
+              "type": "calculated"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

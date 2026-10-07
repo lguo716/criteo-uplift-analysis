@@ -1,0 +1,6 @@
+﻿strategy,strategy_label
+no_treatment,不投放
+all_treatment,全量投放
+random,随机投放（期望）
+response,响应概率排序
+uplift,Uplift 定向
