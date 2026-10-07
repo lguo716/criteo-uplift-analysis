@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "checked_at": "2026-10-07T12:11:54.352240+00:00",
+  "checked_at": "2026-10-07T12:37:14.285052+00:00",
   "checks": [
     {
       "check": "reports/artifact_verification.json",
@@ -182,7 +182,7 @@
       "detail": null
     },
     {
-      "check": "docs/learning_stage_09_interview.md_substantial",
+      "check": "docs/learning_stage_09_reproducibility.md_substantial",
       "passed": true,
       "detail": null
     },
@@ -202,17 +202,7 @@
       "detail": null
     },
     {
-      "check": "reports/interview_guide.md_substantial",
-      "passed": true,
-      "detail": null
-    },
-    {
       "check": "reports/project_acceptance.md_substantial",
-      "passed": true,
-      "detail": null
-    },
-    {
-      "check": "reports/resume_bullets.md_substantial",
       "passed": true,
       "detail": null
     },
@@ -238,8 +228,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 8871,
-      "sha256": "0a8f992a778e843896f3eede527f150df2fceba159b6511af683aeb9ae8703f4"
+      "bytes": 8804,
+      "sha256": "5d0508c303917c7924d6bcde5f53074cb66dca19cb96fa219bee91a40a2d3e1f"
     },
     {
       "path": "NOTICE.md",
@@ -297,9 +287,9 @@
       "sha256": "9aced4313350d7759c72b9c3e28dc430b7a68d5a23dc64452fc364dba3034bf7"
     },
     {
-      "path": "docs/learning_stage_09_interview.md",
-      "bytes": 1369,
-      "sha256": "30a59c45dea61f5d480ca74f4b70c700ad9bf2e824343df36a5424af22082b60"
+      "path": "docs/learning_stage_09_reproducibility.md",
+      "bytes": 1635,
+      "sha256": "363e56c2ee02f3b1fe7930b5197ec32149bd42ac200db2f95e3ec2bc009b996e"
     },
     {
       "path": "docs/metric_definitions.md",
@@ -308,8 +298,8 @@
     },
     {
       "path": "docs/project_complete_walkthrough.md",
-      "bytes": 5647,
-      "sha256": "a16c38d936781d8fe591ecda617dc282f11a750295d74dfec5c673e151ba4acd"
+      "bytes": 5655,
+      "sha256": "a0907057096996e623121166a7b18c05a4a2a6112603b3b53501de4580c60a52"
     },
     {
       "path": "reports/findings.md",
@@ -317,19 +307,9 @@
       "sha256": "6013b6a82d469899e7e1d7b41349d9bcbf2b5ca3e702dc210758c23628bea4c5"
     },
     {
-      "path": "reports/interview_guide.md",
-      "bytes": 3557,
-      "sha256": "34ff5f44a76c5c7688bc2f3a9d753a3fdbf57875e0feaf1c97c992f17e079029"
-    },
-    {
       "path": "reports/project_acceptance.md",
-      "bytes": 6415,
-      "sha256": "66e66a0b7926dd1e9b92c46b648b01cfe3069d613fee289c0014c3f5a3d2a624"
-    },
-    {
-      "path": "reports/resume_bullets.md",
-      "bytes": 1048,
-      "sha256": "60cf7d8b4691f422ca6c5aed5191146832719958934ab5f817abad54ced93f6b"
+      "bytes": 6316,
+      "sha256": "46ad27799a4477b2cc7e62992082bf5132227c95e1b4254527f5da130821c6be"
     },
     {
       "path": "powerbi/criteo_uplift_analysis.pbix",
@@ -383,8 +363,8 @@
     },
     {
       "path": "src/download.py",
-      "bytes": 3060,
-      "sha256": "5c0c9196353a38a81a0beb541cf96cdc9d6533e3284ca4715d752fc7846d0325"
+      "bytes": 3059,
+      "sha256": "77a6995e9223f0ecd356690b59bf79e515d19c699ab356d7e6dc71c9cf30561d"
     },
     {
       "path": "src/evaluate.py",
@@ -418,8 +398,8 @@
     },
     {
       "path": "src/reporting.py",
-      "bytes": 23386,
-      "sha256": "0019b123b8dcf4a7dedf46a6ba3b1de6de3e11e0a2af8426b77bc9a05bb27a00"
+      "bytes": 22141,
+      "sha256": "6b48a44f5ac2d9d7877ac7c6617390cd1f3094dd4c100fc2ccc95f19b4f90c7d"
     },
     {
       "path": "src/run_pipeline.py",

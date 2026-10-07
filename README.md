@@ -4,7 +4,7 @@
 
 以Criteo官方v2.1公开实验为基础，研究广告分组的访问/转化增量，以及预算有限时的目标人群策略。访问为预设主指标，转化为探索性辅助指标。交付完整代码、真实离线结果、两份Notebook、九阶段学习讲解及三页Power BI项目。
 
-**当前状态：项目完成，公开求职作品集。** 仓库：[lguo716/criteo-uplift-analysis](https://github.com/lguo716/criteo-uplift-analysis)。300万样本全流程已实际运行，18项测试、46项产物检查、7项SQL核对及33项Power BI DAX核对通过；PBIX已在Desktop保存、重新打开、刷新并检查切片器。详细证据见[验收记录](reports/project_acceptance.md)。
+**当前状态：项目完成，分析结果公开。** 仓库：[lguo716/criteo-uplift-analysis](https://github.com/lguo716/criteo-uplift-analysis)。300万样本全流程已实际运行，18项测试、46项产物检查、7项SQL核对及33项Power BI DAX核对通过；PBIX已在Desktop保存、重新打开、刷新并检查切片器。详细证据见[验收记录](reports/project_acceptance.md)。
 
 ## 1. 业务问题与主要结果
 
@@ -99,13 +99,13 @@ python -m venv .venv
 
 PBIX由Power BI Desktop实际另存生成，并在新进程重新打开、执行主页刷新，核对访问/转化及0%/20%/50%/100%预算交互。三张高清截图来自实际运行报告。本地结构校验0错误、0告警；在线校验0错误，官方Schema获取存在告警（其中Desktop写入的2.13.0地址返回404），详见验收记录。
 
-## 8. 学习与面试入口
+## 8. 学习与复现入口
 
 - [业务报告](reports/findings.md)
 - [完整流程讲解](docs/project_complete_walkthrough.md)
 - 九阶段学习：`python -m src.learn --stage 1`至`--stage 9`
 - [实验Notebook](notebooks/01_experiment_analysis.ipynb)、[模型与策略Notebook](notebooks/02_uplift_and_strategy.ipynb)
-- [面试讲解](reports/interview_guide.md)、[简历三条](reports/resume_bullets.md)
+- [复现与验收指南](docs/learning_stage_09_reproducibility.md)
 - [SQL核对](reports/sql_verification.json)、[产物一致性](reports/artifact_verification.json)
 - [交付文件与SHA256核对](reports/delivery_verification.json)
 
@@ -113,6 +113,6 @@ PBIX由Power BI Desktop实际另存生成，并在新进程重新打开、执行
 
 `src/`核心程序；`sql/`独立取数核对；`data/`数据与身份清单；`models/`模型和选择记录；`reports/tables/`真实结果；`reports/figures/`分析图与Desktop截图；`notebooks/`两个已执行学习入口；`docs/`口径与九阶段讲解；`powerbi/`PBIP模型、报告、主题和验证脚本；`tests/`已知效果与边界检查。
 
-公开仓库包含代码、锁定依赖、数据身份清单、模型选择与训练配置、已执行Notebook、真实汇总结果、中文学习与求职材料、PBIP/PBIX和最终高清截图。原始数据、抽样Parquet、逐行预测、训练模型二进制、类别字典、虚拟环境和本机缓存不上传；运行全流程可重新生成。
+公开仓库包含代码、锁定依赖、数据身份清单、模型选择与训练配置、已执行Notebook、真实汇总结果、中文学习材料、PBIP/PBIX和最终高清截图。原始数据、抽样Parquet、逐行预测、训练模型二进制、类别字典、虚拟环境和本机缓存不上传；运行全流程可重新生成。
 
-仅查看已有成果无需下载原始数据：阅读业务报告或直接打开PBIX。克隆后刷新Power BI时，将ProjectRoot参数改为克隆目录，现有reports/tables中的汇总CSV已齐备。源数据与相关衍生成果许可见[NOTICE](NOTICE.md)，自写代码采用[MIT](LICENSE)。实际简历文件另行修改。
+仅查看已有成果无需下载原始数据：阅读业务报告或直接打开PBIX。克隆后刷新Power BI时，将ProjectRoot参数改为克隆目录，现有reports/tables中的汇总CSV已齐备。源数据与相关衍生成果许可见[NOTICE](NOTICE.md)，自写代码采用[MIT](LICENSE)。

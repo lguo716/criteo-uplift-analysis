@@ -60,6 +60,6 @@ Qini是相对随机投放曲线的面积；AUUC是累计增量曲线面积。这
 
 ## 11. 推荐复盘顺序
 
-先执行`python -m src.learn --stage 1`，依次阅读`learning_stage_01`到`learning_stage_09`。再打开两个Notebook复核公式和实际结果，最后用面试讲解稿在5分钟内讲出问题、数据、方法、结果和限制。
+先执行`python -m src.learn --stage 1`，依次阅读`learning_stage_01`到`learning_stage_09`。再打开两个Notebook复核公式和实际结果，最后按复现与验收指南核对数据身份、样本划分、统计口径和导出结果。
 
 一键复现分析为`python -m src.run_pipeline --stage all --sample-size 3000000 --seed 42`；使用项目虚拟环境。重新生成Power BI源文件后，在Desktop刷新并保存，实际验收状态以`reports/project_acceptance.md`为准。

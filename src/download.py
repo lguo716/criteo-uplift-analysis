@@ -29,7 +29,7 @@ def download():
             offset = partial.stat().st_size if partial.exists() else 0
             if offset == SOURCE_BYTES:
                 break
-            request = urllib.request.Request(SOURCE_URL, headers={"User-Agent": "criteo-uplift-portfolio/1.0", "Range": f"bytes={offset}-"})
+            request = urllib.request.Request(SOURCE_URL, headers={"User-Agent": "criteo-uplift-analysis/1.0", "Range": f"bytes={offset}-"})
             try:
                 with urllib.request.urlopen(request, timeout=120) as response:
                     # Servers that ignore Range must start a fresh file.

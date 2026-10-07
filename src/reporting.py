@@ -200,17 +200,6 @@ def findings():
 - [验收记录](project_acceptance.md)
 """
     (ROOT / "reports/findings.md").write_text(content, encoding="utf-8")
-    bullets = f"""# 简历项目描述（使用真实离线结果）
-
-**广告投放增量效果评估与目标人群优化｜Python、LightGBM、DuckDB、Power BI**
-
-- 处理Criteo约1,398万条公开实验记录，完成哈希验证、全量质量检查和300万条可复现随机抽样，构建180万/60万/60万训练、验证、测试集及SQL指标核对。
-- 采用比例差置信区间、S/T/X-Learner与处理比例校正的Qini/AUUC评估访问增量，排除曝光等处理后特征；依据验证集选定{NAMES[winner]}，在独立测试集使用500次配对分层Bootstrap评估策略差异。
-- 完成预算投放离线模拟：20%触达情景中，Uplift策略每万名候选用户估计增加{target.incremental_per_10000:.2f}次访问，相对随机多{target.vs_random_per_10000:.2f}次；响应排序达到{response.incremental_per_10000:.2f}次，如实识别简单基准的优势，并输出三页Power BI看板。
-
-描述中的增量均是公开基准的离线估计。三页Power BI交付与实际Desktop验收证据见[验收记录](project_acceptance.md)。这些条目是求职材料草稿，不自动改写实际简历。
-"""
-    (ROOT / "reports/resume_bullets.md").write_text(bullets, encoding="utf-8")
     return target
 
 
